@@ -1,8 +1,8 @@
 import ReactDOM from "react-dom/client";
-import { MantineProvider, Text } from "@mantine/core";
+import { MantineProvider } from "@mantine/core";
 import App from "./App";
 
-function Demo() {
+const Demo = () => {
   return (
     <MantineProvider
       withGlobalStyles
@@ -14,7 +14,7 @@ function Demo() {
       <App />
     </MantineProvider>
   );
-}
+};
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   Demo()
