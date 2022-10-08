@@ -7,6 +7,12 @@ const GetData = async (url: string) => {
   return data;
 };
 
+// const type PrevisioneMeteo = {
+//   giorni: Object,
+//   localita: string,
+//   quota: number
+// };
+
 const Displayer = () => {
   const [previsioni_meteo, setPrevisioniMeteo] = useState();
 
@@ -18,8 +24,10 @@ const Displayer = () => {
     });
   }, []);
 
+  console.log(typeof previsioni_meteo);
+
   if (previsioni_meteo) {
-    console.log(previsioni_meteo.previsione[0].giorni);
+    console.log(previsioni_meteo);
   }
 
   return (
