@@ -1,24 +1,30 @@
+import { useEffect, useState } from "react";
+
 const GetData = async (url: string) => {
   const response = await fetch(url);
   const data = await response.json();
 
-  //console.log(data);
-  return data.status;
+  return data;
 };
 
 const Displayer = () => {
-  const previsioni_meteo = GetData(
-    "https://www.meteotrentino.it/protcivtn-meteo/api/front/previsioneOpenDataLocalita?localita=TRENTO"
-  );
+  const [previsioni_meteo, setPrevisioniMeteo] = useState();
 
-  // Promise.resolve(previsioni_meteo).then((value) => {
-  //   console.log(value); // "Success"
-  // });
-  console.log(previsioni_meteo);
+  useEffect(() => {
+    GetData(
+      "https://www.meteotrentino.it/protcivtn-meteo/api/front/previsioneOpenDataLocalita?localita=TRENTO"
+    ).then((status) => {
+      setPrevisioniMeteo(status);
+    });
+  }, []);
+
+  if (previsioni_meteo) {
+    console.log(previsioni_meteo.previsione[0].giorni);
+  }
 
   return (
     <div>
-      <pre>{JSON.stringify(previsioni_meteo)}</pre>
+      <p>{JSON.stringify(previsioni_meteo)}</p>
     </div>
   );
   // return <Grid align={"center"} columns={6} gutter={"xs"}>
