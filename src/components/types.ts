@@ -16,15 +16,15 @@ type PrevisioneMeteo = {
   quota: number;
 };
 
-type Giorno = {
+export type Giorno = {
   idPrevisione: number;
   giorno: string;
   idIcona: number;
   icona: string;
-  descrizioneIcona: string;
+  descIcona: string;
   testoGiorno: string;
-  tMin: number;
-  tMax: number;
+  tMinGiorno: number;
+  tMaxGiorno: number;
   fasce: Fascia[];
 };
 
