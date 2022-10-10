@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Risposta } from "./types";
 
 const GetData = async (url: string) => {
   const response = await fetch(url);
@@ -7,14 +8,8 @@ const GetData = async (url: string) => {
   return data;
 };
 
-// const type PrevisioneMeteo = {
-//   giorni: Object,
-//   localita: string,
-//   quota: number
-// };
-
 const Displayer = () => {
-  const [previsioni_meteo, setPrevisioniMeteo] = useState();
+  const [previsione, setPrevisioniMeteo] = useState();
 
   useEffect(() => {
     GetData(
@@ -24,15 +19,26 @@ const Displayer = () => {
     });
   }, []);
 
-  console.log(typeof previsioni_meteo);
-
-  if (previsioni_meteo) {
-    console.log(previsioni_meteo);
+  if (!previsione) {
+    console.log("API Non va");
+    return (
+      <div>
+        <p>Errore, API non funzionante</p>
+      </div>
+    );
   }
+
+  console.log(previsione);
+
+  // const previsione: PrevisioneMeteo = {
+  //   giorni: previsione[0].previsione.giorni,
+  //   localita: previsione[0].previsione.localita,
+  //   quota: previsione[0].previsione.quota,
+  // };
 
   return (
     <div>
-      <p>{JSON.stringify(previsioni_meteo)}</p>
+      <p>{JSON.stringify(previsione)}</p>
     </div>
   );
   // return <Grid align={"center"} columns={6} gutter={"xs"}>

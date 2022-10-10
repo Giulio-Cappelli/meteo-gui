@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom/client";
 import { MantineProvider } from "@mantine/core";
-import App from "./App";
+import App from "./components/App";
 
 const Demo = () => {
   return (
