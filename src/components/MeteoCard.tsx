@@ -1,4 +1,12 @@
-import { Card, Space, Center, Group, ThemeIcon, Text } from "@mantine/core";
+import {
+  Box,
+  Space,
+  Center,
+  Group,
+  ThemeIcon,
+  Text,
+  Divider,
+} from "@mantine/core";
 import { Giorno } from "./types";
 
 const displayInfoCard = (giorno: Giorno) => {
@@ -8,17 +16,37 @@ const displayInfoCard = (giorno: Giorno) => {
 const MeteoCard = (props: { giorno: Giorno }) => {
   const { giorno } = props;
   return (
-    <Card
-      withBorder
-      onClick={() => displayInfoCard(giorno)}
+    <Box
+      sx={(theme) => ({
+        backgroundColor:
+          theme.colorScheme === "dark"
+            ? theme.colors.dark[6]
+            : theme.colors.gray[0],
+        textAlign: "center",
+        padding: theme.spacing.xl,
+        borderRadius: theme.radius.md,
+        cursor: "pointer",
+
+        "&:hover": {
+          backgroundColor:
+            theme.colorScheme === "dark"
+              ? theme.colors.dark[5]
+              : theme.colors.gray[1],
+        },
+      })}
       key={giorno.giorno}
+      onClick={() => {
+        console.log(giorno.giorno);
+      }}
     >
       <Text size="md" align="center">
         {giorno.giorno}
       </Text>
-      <Space h="xs" />
+      <Space h={"xs"} />
+      <Divider />
+      <Space h={"xs"} />{" "}
       <Center>
-        <img src={giorno.icona} />
+        <img src={giorno.icona} title={giorno.descIcona} />
       </Center>
       <Space h="xs" />
       <Group position={"center"}>
@@ -29,7 +57,7 @@ const MeteoCard = (props: { giorno: Giorno }) => {
           <Text>{giorno.tMaxGiorno}</Text>
         </ThemeIcon>
       </Group>
-    </Card>
+    </Box>
   );
 };
 

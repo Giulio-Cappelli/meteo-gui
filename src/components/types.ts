@@ -27,8 +27,7 @@ export type Giorno = {
   tMaxGiorno: number;
   fasce: Fascia[];
 };
-
-type Fascia = {
+export type Fascia = {
   idFascia: number;
   fascia: string;
   fasciaPer: string;
