@@ -1,18 +1,8 @@
-import {
-  Card,
-  Center,
-  Grid,
-  Text,
-  Space,
-  Group,
-  Button,
-  ThemeIcon,
-} from "@mantine/core";
+import { Space } from "@mantine/core";
 import useSWR from "swr";
-import { Risposta, Giorno } from "./types";
-
-import "weather-react-icons/lib/css/weather-icons.css";
-import { WeatherIcon } from "weather-react-icons";
+import MeteoInfoCard from "./MeteoInfoCard";
+import MeteoList from "./MeteoList";
+import { Risposta } from "./types";
 
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
@@ -40,44 +30,11 @@ const Displayer = () => {
   // });
 
   return (
-    <Grid align={"center"} columns={6} gutter={"xs"}>
-      {createElements(data.previsione[0].giorni)}
-    </Grid>
-  );
-};
-
-const createElements = (giorni: Giorno[]) => {
-  return giorni.map((giorno: Giorno) => {
-    return createElement(giorno);
-  });
-};
-const createElement = (giorno: Giorno) => {
-  return (
-    <Grid.Col span={1} key={giorno.giorno}>
-      {createCard(giorno)}
-    </Grid.Col>
-  );
-};
-const createCard = (giorno: Giorno) => {
-  return (
-    <Card withBorder>
-      <Text size="md" align="center">
-        {giorno.giorno}
-      </Text>
-      <Space h="xs" />
-      <Center>
-        <img src={giorno.icona} />
-      </Center>
-      <Space h="xs" />
-      <Group position={"center"}>
-        <ThemeIcon size={"xl"} color={"blue"}>
-          <Text>{giorno.tMinGiorno}</Text>
-        </ThemeIcon>
-        <ThemeIcon size={"xl"} color={"red"}>
-          <Text>{giorno.tMaxGiorno}</Text>
-        </ThemeIcon>
-      </Group>
-    </Card>
+    <>
+      <MeteoList giorni={data.previsione[0].giorni} key={data.idPrevisione} />
+      <Space h={"xs"} />
+      <MeteoInfoCard giorno={data.previsione[0].giorni[0]} />
+    </>
   );
 };
 
