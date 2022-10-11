@@ -28,7 +28,7 @@ export type Giorno = {
   fasce: Fascia[];
 };
 export type Fascia = {
-  idFascia: number;
+  idPrevisioneFascia: number;
   fascia: string;
   fasciaPer: string;
   fasciaOre: string;

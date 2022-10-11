@@ -1,11 +1,7 @@
 import { Table } from "@mantine/core";
 import { Fascia } from "./types";
-import WeatherrangeTableBody from "./WeatherRangeTableBody";
+import WeatherRangeTableBody from "./WeatherRangeTableBody";
 import WeatherRangeTableHeader from "./WeatherRangeTableHeader";
-
-const bodyOfTable = () => {
-  return <tr></tr>;
-};
 
 const WeatherRangeDisplayer = (props: { fasce: Fascia[] }) => {
   const { fasce } = props;
@@ -15,7 +11,7 @@ const WeatherRangeDisplayer = (props: { fasce: Fascia[] }) => {
         <WeatherRangeTableHeader />
       </thead>
       <tbody>
-        <WeatherrangeTableBody />
+        <WeatherRangeTableBody fasce={fasce} />
       </tbody>
     </Table>
   );

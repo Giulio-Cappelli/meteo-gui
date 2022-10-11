@@ -2,9 +2,10 @@ const WeatherRangeTableHeader = () => {
   return (
     <tr>
       <th>Condizioni Meteo</th>
-      <th>Pioggia</th>
-      <th>Vento</th>
-      <th>Neve</th>
+      <th>Pioggia (probabilità %)</th>
+      <th>Pioggia (intensità)</th>
+      <th>Vento (direzione)</th>
+      <th>Neve (zero termico)</th>
     </tr>
   );
 };
