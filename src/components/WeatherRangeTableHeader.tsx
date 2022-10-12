@@ -1,6 +1,7 @@
 const WeatherRangeTableHeader = () => {
   return (
     <tr>
+      <th>Fascia</th>
       <th>Condizioni Meteo</th>
       <th>Pioggia (probabilità %)</th>
       <th>Pioggia (intensità)</th>

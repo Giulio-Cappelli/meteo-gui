@@ -1,6 +1,15 @@
-import { Box, Card, Center, Divider, Grid, Space, Text } from "@mantine/core";
+import {
+  Card,
+  Divider,
+  Grid,
+  Group,
+  Space,
+  Text,
+  ThemeIcon,
+} from "@mantine/core";
 import { Giorno } from "./types";
 import WeatherRangeDisplayer from "./WeatherRangeDisplayer";
+import WeatherRangeTemperature from "./WeatherRangeTemperature";
 
 const MeteoInfoCard = (props: { giorno: Giorno }) => {
   const { giorno } = props;
@@ -13,7 +22,10 @@ const MeteoInfoCard = (props: { giorno: Giorno }) => {
       <Space h={"xs"} />
       <Grid columns={5}>
         <Grid.Col span={1}>
-          <Text>Ciao</Text>
+          <WeatherRangeTemperature
+            tMin={giorno.tMinGiorno}
+            tMax={giorno.tMaxGiorno}
+          />
         </Grid.Col>
         <Grid.Col span={4}>
           <WeatherRangeDisplayer fasce={giorno.fasce} />
