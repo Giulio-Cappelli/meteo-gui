@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgOvercast = (props) => (
+const SvgOvercast = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 64 64"
@@ -65,4 +65,3 @@ const SvgOvercast = (props) => (
   </svg>
 );
 export default SvgOvercast;
-

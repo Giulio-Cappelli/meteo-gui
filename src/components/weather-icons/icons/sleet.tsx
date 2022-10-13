@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgSleet = (props) => (
+const SvgSleet = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -247,4 +247,3 @@ const SvgSleet = (props) => (
   </svg>
 );
 export default SvgSleet;
-

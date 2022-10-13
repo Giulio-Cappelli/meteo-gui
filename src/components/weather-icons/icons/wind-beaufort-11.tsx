@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgWindBeaufort11 = (props) => (
+const SvgWindBeaufort11 = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -69,4 +69,3 @@ const SvgWindBeaufort11 = (props) => (
   </svg>
 );
 export default SvgWindBeaufort11;
-

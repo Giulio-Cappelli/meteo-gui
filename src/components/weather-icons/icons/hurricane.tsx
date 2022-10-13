@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgHurricane = (props) => (
+const SvgHurricane = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 64 64"
@@ -46,4 +46,3 @@ const SvgHurricane = (props) => (
   </svg>
 );
 export default SvgHurricane;
-

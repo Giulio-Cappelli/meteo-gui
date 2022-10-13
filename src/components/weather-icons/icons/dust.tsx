@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgDust = (props) => (
+const SvgDust = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -157,4 +157,3 @@ const SvgDust = (props) => (
   </svg>
 );
 export default SvgDust;
-

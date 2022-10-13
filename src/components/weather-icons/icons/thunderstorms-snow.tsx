@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgThunderstormsSnow = (props) => (
+const SvgThunderstormsSnow = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -238,4 +238,3 @@ const SvgThunderstormsSnow = (props) => (
   </svg>
 );
 export default SvgThunderstormsSnow;
-

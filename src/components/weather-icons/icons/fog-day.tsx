@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgFogDay = (props) => (
+const SvgFogDay = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -104,4 +104,3 @@ const SvgFogDay = (props) => (
   </svg>
 );
 export default SvgFogDay;
-

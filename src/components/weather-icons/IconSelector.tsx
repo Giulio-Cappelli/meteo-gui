@@ -1,17 +1,15 @@
-const IconSelector = (props: { descIcona: string }) => {
-  const { descIcona } = props;
+import SvgPartlyCloudyDay from "./icons/partly-cloudy-day";
+
+const IconSelector = (props: { descIcona: string; icona: string }) => {
+  const { descIcona, icona } = props;
 
   switch (descIcona) {
-    case "1":
-      return <></>;
+    case "Poco nuvoloso":
+      return <SvgPartlyCloudyDay />;
 
     default:
-      return (
-        <>
-          <p>{descIcona}</p>
-        </>
-      );
+      return <img src={icona} title={descIcona} alt={icona} />;
   }
-};  
+};
 
 export default IconSelector;

@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgCelsius = (props) => (
+const SvgCelsius = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 64 64"
@@ -13,4 +13,3 @@ const SvgCelsius = (props) => (
   </svg>
 );
 export default SvgCelsius;
-

@@ -8,6 +8,7 @@ import {
   Divider,
 } from "@mantine/core";
 import { Giorno } from "./types";
+import IconSelector from "./weather-icons/IconSelector";
 
 const displayInfoCard = (giorno: Giorno) => {
   return;
@@ -45,9 +46,7 @@ const MeteoCard = (props: { giorno: Giorno }) => {
       <Space h={"xs"} />
       <Divider />
       <Space h={"xs"} />{" "}
-      <Center>
-        <img src={giorno.icona} title={giorno.descIcona} />
-      </Center>
+      <IconSelector descIcona={giorno.descIcona} icona={giorno.icona} />
       <Space h="xs" />
       <Group position={"center"}>
         <ThemeIcon size={"xl"} color={"blue"}>

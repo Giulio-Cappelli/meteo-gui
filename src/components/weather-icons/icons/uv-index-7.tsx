@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgUvIndex7 = (props) => (
+const SvgUvIndex7 = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 64 64"
@@ -63,4 +63,3 @@ const SvgUvIndex7 = (props) => (
   </svg>
 );
 export default SvgUvIndex7;
-

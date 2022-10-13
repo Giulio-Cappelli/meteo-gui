@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgThunderstorms = (props) => (
+const SvgThunderstorms = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 64 64"
@@ -56,4 +56,3 @@ const SvgThunderstorms = (props) => (
   </svg>
 );
 export default SvgThunderstorms;
-

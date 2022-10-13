@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgThermometerMercury = (props) => (
+const SvgThermometerMercury = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 64 64"
@@ -18,4 +18,3 @@ const SvgThermometerMercury = (props) => (
   </svg>
 );
 export default SvgThermometerMercury;
-
