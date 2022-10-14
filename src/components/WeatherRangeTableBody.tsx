@@ -1,5 +1,5 @@
 import { Fascia } from "./types";
-import WeatherRange from "./WeatherRange";
+import WeatherRange from "./WeatherRangeFascia";
 
 const WeatherRangeTableBody = (props: { fasce: Fascia[] }) => {
   const { fasce } = props;

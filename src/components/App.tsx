@@ -27,7 +27,7 @@ const App = () => {
       }}
       navbarOffsetBreakpoint="sm"
       asideOffsetBreakpoint="sm"
-      navbar={
+      /*navbar={
         <Navbar
           p="md"
           hiddenBreakpoint="sm"
@@ -36,7 +36,7 @@ const App = () => {
         >
           <Text>Application navbar</Text>
         </Navbar>
-      }
+      }*/
       /*aside={
         <MediaQuery smallerThan="sm" styles={{ display: "none" }}>
           <Aside p="md" hiddenBreakpoint="sm" width={{ sm: 200, lg: 300 }}>

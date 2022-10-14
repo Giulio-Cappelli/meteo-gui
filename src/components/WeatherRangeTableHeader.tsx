@@ -1,12 +1,38 @@
+import { Center, Text } from "@mantine/core";
+
 const WeatherRangeTableHeader = () => {
   return (
     <tr>
-      <th>Fascia</th>
-      <th>Condizioni Meteo</th>
-      <th>Pioggia (probabilità %)</th>
-      <th>Pioggia (intensità)</th>
-      <th>Vento (direzione)</th>
-      <th>Neve (zero termico)</th>
+      <th>
+        <Center>
+          <Text>Fascia</Text>
+        </Center>
+      </th>
+      <th>
+        <Center>
+          <Text>Condizioni Meteo</Text>
+        </Center>
+      </th>
+      <th>
+        <Center>
+          <Text>Pioggia (probabilità %)</Text>
+        </Center>
+      </th>
+      <th>
+        <Center>
+          <Text>Pioggia (intensità)</Text>
+        </Center>
+      </th>
+      <th>
+        <Center>
+          <Text>Vento (direzione)</Text>
+        </Center>
+      </th>
+      <th>
+        <Center>
+          <Text>Neve (zero termico)</Text>
+        </Center>
+      </th>
     </tr>
   );
 };

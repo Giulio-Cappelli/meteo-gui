@@ -37,7 +37,7 @@ export type Fascia = {
   idPrecProb: string;
   descPrecProb: string;
   idPrecInten: string;
-  descTempInten: string;
+  descPrecInten: string;
   idTempProb: string;
   descTempProb: string;
   idVentoIntQuota: string;

@@ -1,5 +1,5 @@
-import { Group, ThemeIcon, Text, Table } from "@mantine/core";
-import { timeEnd } from "console";
+import { Text, Table } from "@mantine/core";
+import TemperatureTable from "./TemperatureTable";
 
 const WeatherRangeTemperature = (props: { tMin: number; tMax: number }) => {
   const { tMin, tMax } = props;
@@ -15,14 +15,7 @@ const WeatherRangeTemperature = (props: { tMin: number; tMax: number }) => {
       <tbody>
         <tr>
           <td>
-            <Group position={"center"}>
-              <ThemeIcon size={"xl"} color={"blue"}>
-                <Text>{tMin}</Text>
-              </ThemeIcon>
-              <ThemeIcon size={"xl"} color={"red"}>
-                <Text>{tMax}</Text>
-              </ThemeIcon>
-            </Group>
+            <TemperatureTable tMin={tMin} tMax={tMax} />
           </td>
         </tr>
       </tbody>

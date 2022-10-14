@@ -1,21 +1,10 @@
-import {
-  Box,
-  Space,
-  Center,
-  Group,
-  ThemeIcon,
-  Text,
-  Divider,
-} from "@mantine/core";
+import { Box, Space, Text, Divider } from "@mantine/core";
+import TemperatureTable from "./TemperatureTable";
 import { Giorno } from "./types";
 import IconSelector from "./weather-icons/IconSelector";
 
-const displayInfoCard = (giorno: Giorno) => {
-  return;
-};
-
-const MeteoCard = (props: { giorno: Giorno }) => {
-  const { giorno } = props;
+const MeteoCard = (props: { giorno: Giorno; setGiorno: any }) => {
+  const { giorno, setGiorno } = props;
   return (
     <Box
       sx={(theme) => ({
@@ -37,7 +26,7 @@ const MeteoCard = (props: { giorno: Giorno }) => {
       })}
       key={giorno.giorno}
       onClick={() => {
-        console.log(giorno.giorno);
+        setGiorno(giorno);
       }}
     >
       <Text size="md" align="center">
@@ -45,17 +34,10 @@ const MeteoCard = (props: { giorno: Giorno }) => {
       </Text>
       <Space h={"xs"} />
       <Divider />
-      <Space h={"xs"} />{" "}
+      <Space h={"xs"} />
       <IconSelector descIcona={giorno.descIcona} icona={giorno.icona} />
       <Space h="xs" />
-      <Group position={"center"}>
-        <ThemeIcon size={"xl"} color={"blue"}>
-          <Text>{giorno.tMinGiorno}</Text>
-        </ThemeIcon>
-        <ThemeIcon size={"xl"} color={"red"}>
-          <Text>{giorno.tMaxGiorno}</Text>
-        </ThemeIcon>
-      </Group>
+      <TemperatureTable tMin={giorno.tMinGiorno} tMax={giorno.tMaxGiorno} />
     </Box>
   );
 };
