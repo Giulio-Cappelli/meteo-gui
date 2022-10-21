@@ -2,43 +2,40 @@ import * as React from "react";
 const SvgMoonWaxingGibbous = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 64 64"
+    viewBox="0 0 512 512"
     role="img"
     {...props}
   >
     <defs>
       <linearGradient
         id="moon-waxing-gibbous_svg__a"
-        x1={24.28}
-        x2={40.93}
-        y1={18.15}
-        y2={47}
+        x1={193.9}
+        x2={327.1}
+        y1={143.9}
+        y2={374.7}
         gradientUnits="userSpaceOnUse"
       >
         <stop offset={0} stopColor="#86c3db" />
-        <stop offset={0.45} stopColor="#86c3db" />
+        <stop offset={0.5} stopColor="#86c3db" />
         <stop offset={1} stopColor="#5eafcf" />
       </linearGradient>
     </defs>
-    <circle
-      cx={32}
-      cy={32}
-      r={16.5}
+    <path
       fill="none"
       stroke="#e5e7eb"
-      strokeDasharray="1.99 5.98"
+      strokeDasharray="16.9 56.2"
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth={2}
-      transform="rotate(-45 32.002 31.994)"
+      strokeWidth={17.4}
+      d="M384 256a128 128 0 0 0-128-128c-169.8 6.7-169.7 249.3 0 256a128 128 0 0 0 128-128Z"
     />
     <path
       fill="url(#moon-waxing-gibbous_svg__a)"
       stroke="#72b9d5"
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth={0.5}
-      d="M49 27a16.78 16.78 0 0 0-19.45-11.9 17.2 17.2 0 0 1 1.73 4 17.76 17.76 0 0 1-13.82 22.19A16.83 16.83 0 0 0 37 48.74 17.83 17.83 0 0 0 49 27z"
+      strokeWidth={6}
+      d="M391.4 214.8a134.1 134.1 0 0 0-155.6-95.1 135.2 135.2 0 0 1 13.8 31.9c20.7 73.2-22 151-95.4 173.8a145.4 145.4 0 0 1-14.8 3.6c31 52.5 94.7 78.7 156.6 59.6a142.6 142.6 0 0 0 95.4-173.8Z"
     />
   </svg>
 );

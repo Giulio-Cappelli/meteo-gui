@@ -2,103 +2,140 @@ import * as React from "react";
 const SvgOvercastDay = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 64 64"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 512 512"
     role="img"
     {...props}
   >
     <defs>
-      <linearGradient
-        id="overcast-day_svg__a"
-        x1={16.5}
-        x2={21.5}
-        y1={19.67}
-        y2={28.33}
-        gradientUnits="userSpaceOnUse"
+      <symbol id="overcast-day_svg__f" viewBox="0 0 196 196">
+        <circle
+          cx={98}
+          cy={98}
+          r={40}
+          fill="url(#overcast-day_svg__a)"
+          stroke="#f8af18"
+          strokeMiterlimit={10}
+          strokeWidth={4}
+        />
+        <path
+          fill="none"
+          stroke="#fbbf24"
+          strokeLinecap="round"
+          strokeMiterlimit={10}
+          strokeWidth={12}
+          d="M98 31.4V6m0 184v-25.4M145.1 51l18-17.9M33 163l18-17.9M51 51 33 33m130.1 130.1-18-18M6 98h25.4M190 98h-25.4"
+        >
+          <animateTransform
+            additive="sum"
+            attributeName="transform"
+            dur="6s"
+            repeatCount="indefinite"
+            type="rotate"
+            values="0 98 98; 45 98 98"
+          />
+        </path>
+      </symbol>
+      <symbol id="overcast-day_svg__d" viewBox="0 0 200.3 126.1">
+        <path
+          fill="url(#overcast-day_svg__b)"
+          stroke="#848b98"
+          strokeMiterlimit={10}
+          d="M.5 93.2a32.4 32.4 0 0 0 32.4 32.4h129.8v-.1l2.3.1a34.8 34.8 0 0 0 6.5-68.9 32.4 32.4 0 0 0-48.5-33 48.6 48.6 0 0 0-88.6 37.1h-1.5A32.4 32.4 0 0 0 .5 93.1Z"
+        />
+      </symbol>
+      <symbol id="overcast-day_svg__e" viewBox="0 0 350 222">
+        <path
+          fill="url(#overcast-day_svg__c)"
+          stroke="#e6effc"
+          strokeMiterlimit={10}
+          strokeWidth={6}
+          d="m291 107-2.5.1A83.9 83.9 0 0 0 135.6 43 56 56 0 0 0 51 91a56.6 56.6 0 0 0 .8 9A60 60 0 0 0 63 219l4-.2v.2h224a56 56 0 0 0 0-112Z"
+        />
+      </symbol>
+      <symbol id="overcast-day_svg__g" overflow="visible" viewBox="0 0 398 222">
+        <use
+          xlinkHref="#overcast-day_svg__d"
+          width={200.3}
+          height={126.1}
+          transform="translate(198 27)"
+        >
+          <animateTransform
+            additive="sum"
+            attributeName="transform"
+            dur="6s"
+            repeatCount="indefinite"
+            type="translate"
+            values="-9 0; 9 0; -9 0"
+          />
+        </use>
+        <use xlinkHref="#overcast-day_svg__e" width={350} height={222}>
+          <animateTransform
+            additive="sum"
+            attributeName="transform"
+            dur="6s"
+            repeatCount="indefinite"
+            type="translate"
+            values="-18 0; 18 0; -18 0"
+          />
+        </use>
+      </symbol>
+      <symbol
+        id="overcast-day_svg__h"
+        overflow="visible"
+        viewBox="0 0 410.8 258"
       >
-        <stop offset={0} stopColor="#fbbf24" />
-        <stop offset={0.45} stopColor="#fbbf24" />
-        <stop offset={1} stopColor="#f59e0b" />
-      </linearGradient>
-      <linearGradient
-        id="overcast-day_svg__b"
-        x1={40.76}
-        x2={50.83}
-        y1={23}
-        y2={40.46}
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop offset={0} stopColor="#9ca3af" />
-        <stop offset={0.45} stopColor="#9ca3af" />
-        <stop offset={1} stopColor="#6b7280" />
-      </linearGradient>
+        <use xlinkHref="#overcast-day_svg__f" width={196} height={196} />
+        <use
+          xlinkHref="#overcast-day_svg__g"
+          width={398}
+          height={222}
+          transform="translate(12.84 36)"
+        />
+      </symbol>
       <linearGradient
         id="overcast-day_svg__c"
-        x1={22.56}
-        x2={39.2}
-        y1={21.96}
-        y2={50.8}
+        x1={99.5}
+        x2={232.6}
+        y1={30.7}
+        y2={261.4}
         gradientUnits="userSpaceOnUse"
       >
         <stop offset={0} stopColor="#f3f7fe" />
-        <stop offset={0.45} stopColor="#f3f7fe" />
+        <stop offset={0.5} stopColor="#f3f7fe" />
         <stop offset={1} stopColor="#deeafb" />
       </linearGradient>
+      <linearGradient
+        id="overcast-day_svg__b"
+        x1={52.7}
+        x2={133.4}
+        y1={9.6}
+        y2={149.3}
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset={0} stopColor="#9ca3af" />
+        <stop offset={0.5} stopColor="#9ca3af" />
+        <stop offset={1} stopColor="#6b7280" />
+      </linearGradient>
+      <linearGradient
+        id="overcast-day_svg__a"
+        x1={78}
+        x2={118}
+        y1={63.4}
+        y2={132.7}
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset={0} stopColor="#fbbf24" />
+        <stop offset={0.5} stopColor="#fbbf24" />
+        <stop offset={1} stopColor="#f59e0b" />
+      </linearGradient>
     </defs>
-    <circle
-      cx={19}
-      cy={24}
-      r={5}
-      fill="url(#overcast-day_svg__a)"
-      stroke="#f8af18"
-      strokeMiterlimit={10}
-      strokeWidth={0.5}
+    <use
+      xlinkHref="#overcast-day_svg__h"
+      width={410.8}
+      height={258}
+      transform="translate(56 109)"
     />
-    <path
-      fill="none"
-      stroke="#fbbf24"
-      strokeLinecap="round"
-      strokeMiterlimit={10}
-      strokeWidth={2}
-      d="M19 15.67V12.5m0 23v-3.17m5.89-14.22 2.24-2.24M10.87 32.13l2.24-2.24m0-11.78-2.24-2.24m16.26 16.26-2.24-2.24M7.5 24h3.17m19.83 0h-3.17"
-    >
-      <animateTransform
-        attributeName="transform"
-        dur="45s"
-        repeatCount="indefinite"
-        type="rotate"
-        values="0 19 24; 360 19 24"
-      />
-    </path>
-    <path
-      fill="url(#overcast-day_svg__b)"
-      stroke="#848b98"
-      strokeMiterlimit={10}
-      strokeWidth={0.5}
-      d="M34.23 33.45a4.05 4.05 0 0 0 4.05 4h16.51a4.34 4.34 0 0 0 .81-8.61 3.52 3.52 0 0 0 .06-.66 4.06 4.06 0 0 0-6.13-3.48 6.08 6.08 0 0 0-11.25 3.19 6.34 6.34 0 0 0 .18 1.46h-.18a4.05 4.05 0 0 0-4.05 4.1z"
-    >
-      <animateTransform
-        attributeName="transform"
-        dur="7s"
-        repeatCount="indefinite"
-        type="translate"
-        values="-2.1 0; 2.1 0; -2.1 0"
-      />
-    </path>
-    <path
-      fill="url(#overcast-day_svg__c)"
-      stroke="#e6effc"
-      strokeMiterlimit={10}
-      strokeWidth={0.5}
-      d="M46.5 31.5h-.32a10.49 10.49 0 0 0-19.11-8 7 7 0 0 0-10.57 6 7.21 7.21 0 0 0 .1 1.14A7.5 7.5 0 0 0 18 45.5a4.19 4.19 0 0 0 .5 0h28a7 7 0 0 0 0-14z"
-    >
-      <animateTransform
-        attributeName="transform"
-        dur="7s"
-        repeatCount="indefinite"
-        type="translate"
-        values="-3 0; 3 0; -3 0"
-      />
-    </path>
   </svg>
 );
 export default SvgOvercastDay;

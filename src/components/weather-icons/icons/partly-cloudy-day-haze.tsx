@@ -3,182 +3,225 @@ const SvgPartlyCloudyDayHaze = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
-    viewBox="0 0 64 64"
+    viewBox="0 0 512 512"
     role="img"
     {...props}
   >
     <defs>
       <linearGradient
-        id="partly-cloudy-day-haze_svg__b"
-        x1={16.5}
-        x2={21.5}
-        y1={19.67}
-        y2={28.33}
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop offset={0} stopColor="#fbbf24" />
-        <stop offset={0.45} stopColor="#fbbf24" />
-        <stop offset={1} stopColor="#f59e0b" />
-      </linearGradient>
-      <linearGradient
         id="partly-cloudy-day-haze_svg__c"
-        x1={22.56}
-        x2={39.2}
-        y1={21.96}
-        y2={50.8}
+        x1={99.5}
+        x2={232.6}
+        y1={30.7}
+        y2={261.4}
         gradientUnits="userSpaceOnUse"
       >
         <stop offset={0} stopColor="#f3f7fe" />
-        <stop offset={0.45} stopColor="#f3f7fe" />
+        <stop offset={0.5} stopColor="#f3f7fe" />
         <stop offset={1} stopColor="#deeafb" />
       </linearGradient>
       <linearGradient
         id="partly-cloudy-day-haze_svg__a"
-        x1={17.94}
-        x2={26.94}
-        y1={55.73}
-        y2={71.32}
+        x1={17.3}
+        x2={89.3}
+        y1={43.1}
+        y2={167.8}
         gradientUnits="userSpaceOnUse"
       >
         <stop offset={0} stopColor="#d4d7dd" />
-        <stop offset={0.45} stopColor="#d4d7dd" />
+        <stop offset={0.5} stopColor="#d4d7dd" />
         <stop offset={1} stopColor="#bec1c6" />
       </linearGradient>
       <linearGradient
-        id="partly-cloudy-day-haze_svg__d"
-        x1={28.81}
-        x2={37.81}
-        y1={49.45}
-        y2={65.04}
         xlinkHref="#partly-cloudy-day-haze_svg__a"
-      />
-      <linearGradient
-        id="partly-cloudy-day-haze_svg__e"
-        x1={37.06}
-        x2={46.06}
-        y1={44.68}
-        y2={60.27}
-        xlinkHref="#partly-cloudy-day-haze_svg__a"
-      />
-      <linearGradient
         id="partly-cloudy-day-haze_svg__f"
-        x1={17.94}
-        x2={26.94}
-        y1={49.73}
-        y2={65.32}
-        xlinkHref="#partly-cloudy-day-haze_svg__a"
+        x1={107.3}
+        x2={179.3}
+        y1={-8.8}
+        y2={115.9}
       />
       <linearGradient
-        id="partly-cloudy-day-haze_svg__g"
-        x1={28.81}
-        x2={37.81}
-        y1={43.45}
-        y2={59.04}
         xlinkHref="#partly-cloudy-day-haze_svg__a"
+        id="partly-cloudy-day-haze_svg__g"
+        x1={174.8}
+        x2={246.8}
+        y1={-47.8}
+        y2={76.9}
       />
+      <linearGradient
+        xlinkHref="#partly-cloudy-day-haze_svg__a"
+        id="partly-cloudy-day-haze_svg__h"
+        x2={89.3}
+        y1={-4.9}
+        y2={119.8}
+      />
+      <linearGradient
+        xlinkHref="#partly-cloudy-day-haze_svg__a"
+        id="partly-cloudy-day-haze_svg__i"
+        x1={107.3}
+        x2={179.3}
+        y1={-56.9}
+        y2={67.9}
+      />
+      <linearGradient
+        xlinkHref="#partly-cloudy-day-haze_svg__a"
+        id="partly-cloudy-day-haze_svg__j"
+        x1={174.8}
+        x2={246.8}
+        y1={-95.8}
+        y2={28.9}
+      />
+      <linearGradient
+        id="partly-cloudy-day-haze_svg__b"
+        x1={78}
+        x2={118}
+        y1={63.4}
+        y2={132.7}
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset={0} stopColor="#fbbf24" />
+        <stop offset={0.5} stopColor="#fbbf24" />
+        <stop offset={1} stopColor="#f59e0b" />
+      </linearGradient>
+      <symbol id="partly-cloudy-day-haze_svg__d" viewBox="0 0 196 196">
+        <circle
+          cx={98}
+          cy={98}
+          r={40}
+          fill="url(#partly-cloudy-day-haze_svg__b)"
+          stroke="#f8af18"
+          strokeMiterlimit={10}
+          strokeWidth={4}
+        />
+        <path
+          fill="none"
+          stroke="#fbbf24"
+          strokeLinecap="round"
+          strokeMiterlimit={10}
+          strokeWidth={12}
+          d="M98 31.4V6m0 184v-25.4M145.1 51l18-17.9M33 163l18-17.9M51 51 33 33m130.1 130.1-18-18M6 98h25.4M190 98h-25.4"
+        >
+          <animateTransform
+            additive="sum"
+            attributeName="transform"
+            dur="6s"
+            repeatCount="indefinite"
+            type="rotate"
+            values="0 98 98; 45 98 98"
+          />
+        </path>
+      </symbol>
+      <symbol id="partly-cloudy-day-haze_svg__e" viewBox="0 0 350 222">
+        <path
+          fill="url(#partly-cloudy-day-haze_svg__c)"
+          stroke="#e6effc"
+          strokeMiterlimit={10}
+          strokeWidth={6}
+          d="m291 107-2.5.1A83.9 83.9 0 0 0 135.6 43 56 56 0 0 0 51 91a56.6 56.6 0 0 0 .8 9A60 60 0 0 0 63 219l4-.2v.2h224a56 56 0 0 0 0-112Z"
+        />
+      </symbol>
+      <symbol id="partly-cloudy-day-haze_svg__k" viewBox="0 0 363 258">
+        <use
+          xlinkHref="#partly-cloudy-day-haze_svg__d"
+          width={196}
+          height={196}
+        />
+        <use
+          xlinkHref="#partly-cloudy-day-haze_svg__e"
+          width={350}
+          height={222}
+          transform="translate(13 36)"
+        />
+      </symbol>
+      <symbol
+        id="partly-cloudy-day-haze_svg__l"
+        overflow="visible"
+        viewBox="0 0 264 72"
+      >
+        <g>
+          <path
+            fill="none"
+            stroke="url(#partly-cloudy-day-haze_svg__a)"
+            strokeLinecap="round"
+            strokeMiterlimit={10}
+            strokeWidth={24}
+            d="M12 60h30"
+          />
+          <path
+            fill="none"
+            stroke="url(#partly-cloudy-day-haze_svg__f)"
+            strokeDasharray="60 60"
+            strokeLinecap="round"
+            strokeMiterlimit={10}
+            strokeWidth={24}
+            d="M102 60h90"
+          />
+          <path
+            fill="none"
+            stroke="url(#partly-cloudy-day-haze_svg__g)"
+            strokeLinecap="round"
+            strokeMiterlimit={10}
+            strokeWidth={24}
+            d="M222 60h30"
+          />
+          <animateTransform
+            additive="sum"
+            attributeName="transform"
+            dur="6s"
+            repeatCount="indefinite"
+            type="translate"
+            values="-24 0; 24 0; -24 0"
+          />
+        </g>
+        <g>
+          <path
+            fill="none"
+            stroke="url(#partly-cloudy-day-haze_svg__h)"
+            strokeLinecap="round"
+            strokeMiterlimit={10}
+            strokeWidth={24}
+            d="M12 12h30"
+          />
+          <path
+            fill="none"
+            stroke="url(#partly-cloudy-day-haze_svg__i)"
+            strokeDasharray="60 60"
+            strokeLinecap="round"
+            strokeMiterlimit={10}
+            strokeWidth={24}
+            d="M102 12h90"
+          />
+          <path
+            fill="none"
+            stroke="url(#partly-cloudy-day-haze_svg__j)"
+            strokeLinecap="round"
+            strokeMiterlimit={10}
+            strokeWidth={24}
+            d="M222 12h30"
+          />
+          <animateTransform
+            additive="sum"
+            attributeName="transform"
+            dur="6s"
+            repeatCount="indefinite"
+            type="translate"
+            values="24 0; -24 0; 24 0"
+          />
+        </g>
+      </symbol>
     </defs>
-    <circle
-      cx={19}
-      cy={24}
-      r={5}
-      fill="url(#partly-cloudy-day-haze_svg__b)"
-      stroke="#f8af18"
-      strokeMiterlimit={10}
-      strokeWidth={0.5}
+    <use
+      xlinkHref="#partly-cloudy-day-haze_svg__k"
+      width={363}
+      height={258}
+      transform="translate(68 109)"
     />
-    <path
-      fill="none"
-      stroke="#fbbf24"
-      strokeLinecap="round"
-      strokeMiterlimit={10}
-      strokeWidth={2}
-      d="M19 15.67V12.5m0 23v-3.17m5.89-14.22 2.24-2.24M10.87 32.13l2.24-2.24m0-11.78-2.24-2.24m16.26 16.26-2.24-2.24M7.5 24h3.17m19.83 0h-3.17"
-    >
-      <animateTransform
-        attributeName="transform"
-        dur="45s"
-        repeatCount="indefinite"
-        type="rotate"
-        values="0 19 24; 360 19 24"
-      />
-    </path>
-    <path
-      fill="url(#partly-cloudy-day-haze_svg__c)"
-      stroke="#e6effc"
-      strokeMiterlimit={10}
-      strokeWidth={0.5}
-      d="M46.5 31.5h-.32a10.49 10.49 0 0 0-19.11-8 7 7 0 0 0-10.57 6 7.21 7.21 0 0 0 .1 1.14A7.5 7.5 0 0 0 18 45.5a4.19 4.19 0 0 0 .5 0h28a7 7 0 0 0 0-14z"
+    <use
+      xlinkHref="#partly-cloudy-day-haze_svg__l"
+      width={264}
+      height={72}
+      transform="translate(124 402)"
     />
-    <g>
-      <path
-        fill="none"
-        stroke="url(#partly-cloudy-day-haze_svg__c)"
-        strokeLinecap="round"
-        strokeMiterlimit={10}
-        strokeWidth={3}
-        d="M17 58h4.5"
-      />
-      <path
-        fill="none"
-        stroke="url(#partly-cloudy-day-haze_svg__a)"
-        strokeDasharray="7 7"
-        strokeLinecap="round"
-        strokeMiterlimit={10}
-        strokeWidth={3}
-        d="M28.5 58H39"
-      />
-      <path
-        fill="none"
-        stroke="url(#partly-cloudy-day-haze_svg__d)"
-        strokeLinecap="round"
-        strokeMiterlimit={10}
-        strokeWidth={3}
-        d="M42.5 58H47"
-      />
-      <animateTransform
-        attributeName="transform"
-        begin="0s"
-        dur="5s"
-        repeatCount="indefinite"
-        type="translate"
-        values="-3 0; 3 0; -3 0"
-      />
-    </g>
-    <g>
-      <path
-        fill="none"
-        stroke="url(#partly-cloudy-day-haze_svg__e)"
-        strokeLinecap="round"
-        strokeMiterlimit={10}
-        strokeWidth={3}
-        d="M17 52h4.5"
-      />
-      <path
-        fill="none"
-        stroke="url(#partly-cloudy-day-haze_svg__f)"
-        strokeDasharray="7 7"
-        strokeLinecap="round"
-        strokeMiterlimit={10}
-        strokeWidth={3}
-        d="M28.5 52H39"
-      />
-      <path
-        fill="none"
-        stroke="url(#partly-cloudy-day-haze_svg__g)"
-        strokeLinecap="round"
-        strokeMiterlimit={10}
-        strokeWidth={3}
-        d="M42.5 52H47"
-      />
-      <animateTransform
-        attributeName="transform"
-        begin="-4s"
-        dur="5s"
-        repeatCount="indefinite"
-        type="translate"
-        values="-3 0; 3 0; -3 0"
-      />
-    </g>
   </svg>
 );
 export default SvgPartlyCloudyDayHaze;

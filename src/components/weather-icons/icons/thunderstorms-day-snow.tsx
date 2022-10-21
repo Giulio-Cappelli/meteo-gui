@@ -3,267 +3,201 @@ const SvgThunderstormsDaySnow = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
-    viewBox="0 0 64 64"
+    viewBox="0 0 512 512"
     role="img"
     {...props}
   >
     <defs>
       <linearGradient
-        id="thunderstorms-day-snow_svg__b"
-        x1={16.5}
-        x2={21.5}
-        y1={19.67}
-        y2={28.33}
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop offset={0} stopColor="#fbbf24" />
-        <stop offset={0.45} stopColor="#fbbf24" />
-        <stop offset={1} stopColor="#f59e0b" />
-      </linearGradient>
-      <linearGradient
         id="thunderstorms-day-snow_svg__c"
-        x1={22.56}
-        x2={39.2}
-        y1={21.96}
-        y2={50.8}
+        x1={99.5}
+        x2={232.6}
+        y1={30.7}
+        y2={261.4}
         gradientUnits="userSpaceOnUse"
       >
         <stop offset={0} stopColor="#f3f7fe" />
-        <stop offset={0.45} stopColor="#f3f7fe" />
+        <stop offset={0.5} stopColor="#f3f7fe" />
         <stop offset={1} stopColor="#deeafb" />
       </linearGradient>
       <linearGradient
-        id="thunderstorms-day-snow_svg__a"
-        x1={30.12}
-        x2={31.88}
-        y1={43.48}
-        y2={46.52}
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop offset={0} stopColor="#86c3db" />
-        <stop offset={0.45} stopColor="#86c3db" />
-        <stop offset={1} stopColor="#5eafcf" />
-      </linearGradient>
-      <linearGradient
-        id="thunderstorms-day-snow_svg__d"
-        x1={29.67}
-        x2={32.33}
-        y1={42.69}
-        y2={47.31}
-        xlinkHref="#thunderstorms-day-snow_svg__a"
-      />
-      <linearGradient
-        id="thunderstorms-day-snow_svg__e"
-        x1={23.12}
-        x2={24.88}
-        y1={43.48}
-        y2={46.52}
-        xlinkHref="#thunderstorms-day-snow_svg__a"
-      />
-      <linearGradient
-        id="thunderstorms-day-snow_svg__f"
-        x1={22.67}
-        x2={25.33}
-        y1={42.69}
-        y2={47.31}
-        xlinkHref="#thunderstorms-day-snow_svg__a"
-      />
-      <linearGradient
-        id="thunderstorms-day-snow_svg__g"
-        x1={37.12}
-        x2={38.88}
-        y1={43.48}
-        y2={46.52}
-        xlinkHref="#thunderstorms-day-snow_svg__a"
-      />
-      <linearGradient
-        id="thunderstorms-day-snow_svg__h"
-        x1={36.67}
-        x2={39.33}
-        y1={42.69}
-        y2={47.31}
-        xlinkHref="#thunderstorms-day-snow_svg__a"
-      />
-      <linearGradient
-        id="thunderstorms-day-snow_svg__i"
-        x1={26.74}
-        x2={35.76}
-        y1={37.88}
-        y2={53.52}
+        id="thunderstorms-day-snow_svg__n"
+        x1={8.7}
+        x2={80.9}
+        y1={17.1}
+        y2={142.1}
         gradientUnits="userSpaceOnUse"
       >
         <stop offset={0} stopColor="#f7b23b" />
-        <stop offset={0.45} stopColor="#f7b23b" />
+        <stop offset={0.5} stopColor="#f7b23b" />
         <stop offset={1} stopColor="#f59e0b" />
       </linearGradient>
+      <linearGradient
+        id="thunderstorms-day-snow_svg__a"
+        x1={11.4}
+        x2={32.8}
+        y1={5.9}
+        y2={43.1}
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset={0} stopColor="#86c3db" />
+        <stop offset={0.5} stopColor="#86c3db" />
+        <stop offset={1} stopColor="#5eafcf" />
+      </linearGradient>
+      <linearGradient
+        xlinkHref="#thunderstorms-day-snow_svg__a"
+        id="thunderstorms-day-snow_svg__h"
+        x1={67.4}
+        x2={88.8}
+        y1={5.9}
+        y2={43.1}
+      />
+      <linearGradient
+        xlinkHref="#thunderstorms-day-snow_svg__a"
+        id="thunderstorms-day-snow_svg__k"
+        x1={123.4}
+        x2={144.8}
+        y1={5.9}
+        y2={43.1}
+      />
+      <linearGradient
+        id="thunderstorms-day-snow_svg__b"
+        x1={78}
+        x2={118}
+        y1={63.4}
+        y2={132.7}
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset={0} stopColor="#fbbf24" />
+        <stop offset={0.5} stopColor="#fbbf24" />
+        <stop offset={1} stopColor="#f59e0b" />
+      </linearGradient>
+      <symbol id="thunderstorms-day-snow_svg__d" viewBox="0 0 196 196">
+        <circle
+          cx={98}
+          cy={98}
+          r={40}
+          fill="url(#thunderstorms-day-snow_svg__b)"
+          stroke="#f8af18"
+          strokeMiterlimit={10}
+          strokeWidth={4}
+        />
+        <path
+          fill="none"
+          stroke="#fbbf24"
+          strokeLinecap="round"
+          strokeMiterlimit={10}
+          strokeWidth={12}
+          d="M98 31.4V6m0 184v-25.4M145.1 51l18-17.9M33 163l18-17.9M51 51 33 33m130.1 130.1-18-18M6 98h25.4M190 98h-25.4"
+        >
+          <animateTransform
+            additive="sum"
+            attributeName="transform"
+            dur="6s"
+            repeatCount="indefinite"
+            type="rotate"
+            values="0 98 98; 45 98 98"
+          />
+        </path>
+      </symbol>
+      <symbol id="thunderstorms-day-snow_svg__e" viewBox="0 0 350 222">
+        <path
+          fill="url(#thunderstorms-day-snow_svg__c)"
+          stroke="#e6effc"
+          strokeMiterlimit={10}
+          strokeWidth={6}
+          d="m291 107-2.5.1A83.9 83.9 0 0 0 135.6 43 56 56 0 0 0 51 91a56.6 56.6 0 0 0 .8 9A60 60 0 0 0 63 219l4-.2v.2h224a56 56 0 0 0 0-112Z"
+        />
+      </symbol>
+      <symbol id="thunderstorms-day-snow_svg__p" viewBox="0 0 363 258">
+        <use
+          xlinkHref="#thunderstorms-day-snow_svg__d"
+          width={196}
+          height={196}
+        />
+        <use
+          xlinkHref="#thunderstorms-day-snow_svg__e"
+          width={350}
+          height={222}
+          transform="translate(13 36)"
+        />
+      </symbol>
+      <symbol
+        id="thunderstorms-day-snow_svg__q"
+        overflow="visible"
+        viewBox="0 0 156.2 49"
+      >
+        <g>
+          <animateTransform
+            id="thunderstorms-day-snow_svg__g"
+            additive="sum"
+            attributeName="transform"
+            begin="0s; g.end+1s"
+            dur="2s"
+            type="translate"
+            values="0 -36; 0 92;"
+          />
+        </g>
+        <g>
+          <animateTransform
+            id="thunderstorms-day-snow_svg__j"
+            additive="sum"
+            attributeName="transform"
+            begin="-.83s; j.end+1s"
+            dur="2s"
+            type="translate"
+            values="0 -36; 0 92;"
+          />
+        </g>
+        <g>
+          <animateTransform
+            id="thunderstorms-day-snow_svg__m"
+            additive="sum"
+            attributeName="transform"
+            begin=".83s; m.end+1s"
+            dur="2s"
+            type="translate"
+            values="0 -36; 0 92;"
+          />
+        </g>
+      </symbol>
+      <symbol id="thunderstorms-day-snow_svg__r" viewBox="0 0 102.7 186.8">
+        <path
+          fill="url(#thunderstorms-day-snow_svg__n)"
+          stroke="#f6a823"
+          strokeMiterlimit={10}
+          strokeWidth={4}
+          d="m34.8 2-32 96h32l-16 80 80-112h-48l32-64h-48z"
+        >
+          <animate
+            id="thunderstorms-day-snow_svg__o"
+            attributeName="opacity"
+            begin="0s; o.end+.67s"
+            dur="1.33s"
+            keyTimes="0; .38; .5; .63; .75; .86; .94; 1"
+            values="1; 1; 0; 1; 0; 1; 0; 1"
+          />
+        </path>
+      </symbol>
     </defs>
-    <circle
-      cx={19}
-      cy={24}
-      r={5}
-      fill="url(#thunderstorms-day-snow_svg__b)"
-      stroke="#f8af18"
-      strokeMiterlimit={10}
-      strokeWidth={0.5}
+    <use
+      xlinkHref="#thunderstorms-day-snow_svg__p"
+      width={363}
+      height={258}
+      transform="translate(68 109)"
     />
-    <path
-      fill="none"
-      stroke="#fbbf24"
-      strokeLinecap="round"
-      strokeMiterlimit={10}
-      strokeWidth={2}
-      d="M19 15.67V12.5m0 23v-3.17m5.89-14.22 2.24-2.24M10.87 32.13l2.24-2.24m0-11.78-2.24-2.24m16.26 16.26-2.24-2.24M7.5 24h3.17m19.83 0h-3.17"
-    >
-      <animateTransform
-        attributeName="transform"
-        dur="45s"
-        repeatCount="indefinite"
-        type="rotate"
-        values="0 19 24; 360 19 24"
-      />
-    </path>
-    <path
-      fill="url(#thunderstorms-day-snow_svg__c)"
-      stroke="#e6effc"
-      strokeMiterlimit={10}
-      strokeWidth={0.5}
-      d="M46.5 31.5h-.32a10.49 10.49 0 0 0-19.11-8 7 7 0 0 0-10.57 6 7.21 7.21 0 0 0 .1 1.14A7.5 7.5 0 0 0 18 45.5a4.19 4.19 0 0 0 .5 0h28a7 7 0 0 0 0-14z"
+    <use
+      xlinkHref="#thunderstorms-day-snow_svg__q"
+      width={156.2}
+      height={49}
+      transform="translate(177.9 337.5)"
     />
-    <g>
-      <circle
-        cx={31}
-        cy={45}
-        r={1.25}
-        fill="none"
-        stroke="url(#thunderstorms-day-snow_svg__a)"
-        strokeMiterlimit={10}
-      />
-      <path
-        fill="none"
-        stroke="url(#thunderstorms-day-snow_svg__d)"
-        strokeLinecap="round"
-        strokeMiterlimit={10}
-        d="m33.17 46.25-1.09-.63m-2.16-1.24-1.09-.63M31 42.5v1.25m0 3.75v-1.25m-1.08-.63-1.09.63m4.34-2.5-1.09.63"
-      />
-      <animateTransform
-        additive="sum"
-        attributeName="transform"
-        dur="4s"
-        repeatCount="indefinite"
-        type="translate"
-        values="-1 -6; 1 12"
-      />
-      <animateTransform
-        additive="sum"
-        attributeName="transform"
-        dur="9s"
-        repeatCount="indefinite"
-        type="rotate"
-        values="0 31 45; 360 31 45"
-      />
-      <animate
-        attributeName="opacity"
-        dur="4s"
-        repeatCount="indefinite"
-        values="0;1;1;1;0"
-      />
-    </g>
-    <g>
-      <circle
-        cx={24}
-        cy={45}
-        r={1.25}
-        fill="none"
-        stroke="url(#thunderstorms-day-snow_svg__e)"
-        strokeMiterlimit={10}
-      />
-      <path
-        fill="none"
-        stroke="url(#thunderstorms-day-snow_svg__f)"
-        strokeLinecap="round"
-        strokeMiterlimit={10}
-        d="m26.17 46.25-1.09-.63m-2.16-1.24-1.09-.63M24 42.5v1.25m0 3.75v-1.25m-1.08-.63-1.09.63m4.34-2.5-1.09.63"
-      />
-      <animateTransform
-        additive="sum"
-        attributeName="transform"
-        begin="-2s"
-        dur="4s"
-        repeatCount="indefinite"
-        type="translate"
-        values="1 -6; -1 12"
-      />
-      <animateTransform
-        additive="sum"
-        attributeName="transform"
-        dur="9s"
-        repeatCount="indefinite"
-        type="rotate"
-        values="0 24 45; 360 24 45"
-      />
-      <animate
-        attributeName="opacity"
-        begin="-2s"
-        dur="4s"
-        repeatCount="indefinite"
-        values="0;1;1;1;0"
-      />
-    </g>
-    <g>
-      <circle
-        cx={38}
-        cy={45}
-        r={1.25}
-        fill="none"
-        stroke="url(#thunderstorms-day-snow_svg__g)"
-        strokeMiterlimit={10}
-      />
-      <path
-        fill="none"
-        stroke="url(#thunderstorms-day-snow_svg__h)"
-        strokeLinecap="round"
-        strokeMiterlimit={10}
-        d="m40.17 46.25-1.09-.63m-2.16-1.24-1.09-.63M38 42.5v1.25m0 3.75v-1.25m-1.08-.63-1.09.63m4.34-2.5-1.09.63"
-      />
-      <animateTransform
-        additive="sum"
-        attributeName="transform"
-        begin="-1s"
-        dur="4s"
-        repeatCount="indefinite"
-        type="translate"
-        values="1 -6; -1 12"
-      />
-      <animateTransform
-        additive="sum"
-        attributeName="transform"
-        dur="9s"
-        repeatCount="indefinite"
-        type="rotate"
-        values="0 38 45; 360 38 45"
-      />
-      <animate
-        attributeName="opacity"
-        begin="-1s"
-        dur="4s"
-        repeatCount="indefinite"
-        values="0;1;1;1;0"
-      />
-    </g>
-    <path
-      fill="url(#thunderstorms-day-snow_svg__i)"
-      stroke="#f6a823"
-      strokeMiterlimit={10}
-      strokeWidth={0.5}
-      d="m30 36-4 12h4l-2 10 10-14h-6l4-8h-6z"
-    >
-      <animate
-        attributeName="opacity"
-        dur="2s"
-        repeatCount="indefinite"
-        values="1; 1; 1; 1; 1; 1; 0.1; 1; 0.1; 1; 1; 0.1; 1; 0.1; 1"
-      />
-    </path>
+    <use
+      xlinkHref="#thunderstorms-day-snow_svg__r"
+      width={102.7}
+      height={186.7}
+      transform="translate(205.23 291)"
+    />
   </svg>
 );
 export default SvgThunderstormsDaySnow;

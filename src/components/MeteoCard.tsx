@@ -1,10 +1,14 @@
-import { Box, Space, Text, Divider } from "@mantine/core";
+import { Box, Space, Divider, Title } from "@mantine/core";
+import convertDate from "./functions/convertDate";
 import TemperatureTable from "./TemperatureTable";
 import { Giorno } from "./types";
 import IconSelector from "./weather-icons/IconSelector";
 
 const MeteoCard = (props: { giorno: Giorno; setGiorno: any }) => {
   const { giorno, setGiorno } = props;
+
+  const { giorno_txt, giorno_num, mese_num } = convertDate(giorno);
+
   return (
     <Box
       sx={(theme) => ({
@@ -26,12 +30,16 @@ const MeteoCard = (props: { giorno: Giorno; setGiorno: any }) => {
       })}
       key={giorno.giorno}
       onClick={() => {
+        console.log();
         setGiorno(giorno);
       }}
     >
-      <Text size="md" align="center">
-        {giorno.giorno}
-      </Text>
+      <Title order={3} align="center">
+        {giorno_txt}
+      </Title>
+      <Title order={4} align="center">
+        {giorno_num + "/" + mese_num}
+      </Title>
       <Space h={"xs"} />
       <Divider />
       <Space h={"xs"} />

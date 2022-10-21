@@ -2,21 +2,21 @@ import * as React from "react";
 const SvgPressureLowAlt = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 64 64"
+    viewBox="0 0 512 512"
     role="img"
     {...props}
   >
     <defs>
       <linearGradient
         id="pressure-low-alt_svg__a"
-        x1={21.91}
-        x2={42.09}
-        y1={14.52}
-        y2={49.48}
+        x1={184.3}
+        x2={275.4}
+        y1={192.2}
+        y2={349.9}
         gradientUnits="userSpaceOnUse"
       >
         <stop offset={0} stopColor="#3392d6" />
-        <stop offset={0.45} stopColor="#3392d6" />
+        <stop offset={0.5} stopColor="#3392d6" />
         <stop offset={1} stopColor="#2477b2" />
       </linearGradient>
     </defs>
@@ -24,8 +24,8 @@ const SvgPressureLowAlt = (props: any) => (
       fill="url(#pressure-low-alt_svg__a)"
       stroke="#2885c7"
       strokeMiterlimit={10}
-      strokeWidth={0.5}
-      d="M38 14H26a12 12 0 0 0-12 12v12a12 12 0 0 0 12 12h12a12 12 0 0 0 12-12V26a12 12 0 0 0-12-12zm.5 27h-13V23h4v14.67h9z"
+      strokeWidth={4}
+      d="M234.3 182v120.6H310V330H202V182Z"
     />
   </svg>
 );

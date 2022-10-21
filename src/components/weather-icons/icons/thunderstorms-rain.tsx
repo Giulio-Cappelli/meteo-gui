@@ -3,155 +3,111 @@ const SvgThunderstormsRain = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
-    viewBox="0 0 64 64"
+    viewBox="0 0 512 512"
     role="img"
     {...props}
   >
     <defs>
       <linearGradient
         id="thunderstorms-rain_svg__b"
-        x1={22.56}
-        x2={39.2}
-        y1={21.96}
-        y2={50.8}
+        x1={99.5}
+        x2={232.6}
+        y1={30.7}
+        y2={261.4}
         gradientUnits="userSpaceOnUse"
       >
         <stop offset={0} stopColor="#f3f7fe" />
-        <stop offset={0.45} stopColor="#f3f7fe" />
+        <stop offset={0.5} stopColor="#f3f7fe" />
         <stop offset={1} stopColor="#deeafb" />
       </linearGradient>
       <linearGradient
-        id="thunderstorms-rain_svg__a"
-        x1={22.53}
-        x2={25.47}
-        y1={42.95}
-        y2={48.05}
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop offset={0} stopColor="#4286ee" />
-        <stop offset={0.45} stopColor="#4286ee" />
-        <stop offset={1} stopColor="#0950bc" />
-      </linearGradient>
-      <linearGradient
-        id="thunderstorms-rain_svg__c"
-        x1={29.53}
-        x2={32.47}
-        y1={42.95}
-        y2={48.05}
-        xlinkHref="#thunderstorms-rain_svg__a"
-      />
-      <linearGradient
-        id="thunderstorms-rain_svg__d"
-        x1={36.53}
-        x2={39.47}
-        y1={42.95}
-        y2={48.05}
-        xlinkHref="#thunderstorms-rain_svg__a"
-      />
-      <linearGradient
-        id="thunderstorms-rain_svg__e"
-        x1={26.74}
-        x2={35.76}
-        y1={37.88}
-        y2={53.52}
+        id="thunderstorms-rain_svg__k"
+        x1={8.7}
+        x2={80.9}
+        y1={17.1}
+        y2={142.1}
         gradientUnits="userSpaceOnUse"
       >
         <stop offset={0} stopColor="#f7b23b" />
-        <stop offset={0.45} stopColor="#f7b23b" />
+        <stop offset={0.5} stopColor="#f7b23b" />
         <stop offset={1} stopColor="#f59e0b" />
       </linearGradient>
+      <linearGradient
+        id="thunderstorms-rain_svg__a"
+        x1={1381.3}
+        x2={1399.5}
+        y1={-1144.7}
+        y2={-1097.4}
+        gradientTransform="rotate(-9 8002.567 8233.063)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset={0} stopColor="#0b65ed" />
+        <stop offset={0.5} stopColor="#0a5ad4" />
+        <stop offset={1} stopColor="#0950bc" />
+      </linearGradient>
+      <linearGradient
+        xlinkHref="#thunderstorms-rain_svg__a"
+        id="thunderstorms-rain_svg__e"
+        x1={1436.7}
+        x2={1454.9}
+        y1={-1137}
+        y2={-1089.7}
+        gradientTransform="rotate(-9 8009.537 8233.037)"
+      />
+      <linearGradient
+        xlinkHref="#thunderstorms-rain_svg__a"
+        id="thunderstorms-rain_svg__h"
+        x1={1492.1}
+        x2={1510.3}
+        y1={-1129.3}
+        y2={-1082.1}
+        gradientTransform="rotate(-9 8016.566 8233.078)"
+      />
+      <symbol id="thunderstorms-rain_svg__l" viewBox="0 0 350 222">
+        <path
+          fill="url(#thunderstorms-rain_svg__b)"
+          stroke="#e6effc"
+          strokeMiterlimit={10}
+          strokeWidth={6}
+          d="m291 107-2.5.1A83.9 83.9 0 0 0 135.6 43 56 56 0 0 0 51 91a56.6 56.6 0 0 0 .8 9A60 60 0 0 0 63 219l4-.2v.2h224a56 56 0 0 0 0-112Z"
+        />
+      </symbol>
+      <symbol id="thunderstorms-rain_svg__n" viewBox="0 0 102.7 186.8">
+        <path
+          fill="url(#thunderstorms-rain_svg__k)"
+          stroke="#f6a823"
+          strokeMiterlimit={10}
+          strokeWidth={4}
+          d="m34.8 2-32 96h32l-16 80 80-112h-48l32-64h-48z"
+        >
+          <animate
+            attributeName="opacity"
+            begin="0s; c.end+.67s"
+            dur="1.33s"
+            keyTimes="0; .38; .5; .63; .75; .86; .94; 1"
+            values="1; 1; 0; 1; 0; 1; 0; 1"
+          />
+        </path>
+      </symbol>
     </defs>
-    <path
-      fill="url(#thunderstorms-rain_svg__b)"
-      stroke="#e6effc"
-      strokeMiterlimit={10}
-      strokeWidth={0.5}
-      d="M46.5 31.5h-.32a10.49 10.49 0 0 0-19.11-8 7 7 0 0 0-10.57 6 7.21 7.21 0 0 0 .1 1.14A7.5 7.5 0 0 0 18 45.5a4.19 4.19 0 0 0 .5 0h28a7 7 0 0 0 0-14z"
+    <use
+      xlinkHref="#thunderstorms-rain_svg__l"
+      width={350}
+      height={222}
+      transform="translate(81 145)"
     />
-    <path
-      fill="none"
-      stroke="url(#thunderstorms-rain_svg__a)"
-      strokeLinecap="round"
-      strokeMiterlimit={10}
-      strokeWidth={2}
-      d="m24.39 43.03-.78 4.94"
-    >
-      <animateTransform
-        attributeName="transform"
-        dur="0.7s"
-        repeatCount="indefinite"
-        type="translate"
-        values="1 -5; -2 10"
-      />
-      <animate
-        attributeName="opacity"
-        dur="0.7s"
-        repeatCount="indefinite"
-        values="0;1;1;0"
-      />
-    </path>
-    <path
-      fill="none"
-      stroke="url(#thunderstorms-rain_svg__c)"
-      strokeLinecap="round"
-      strokeMiterlimit={10}
-      strokeWidth={2}
-      d="m31.39 43.03-.78 4.94"
-    >
-      <animateTransform
-        attributeName="transform"
-        begin="-0.4s"
-        dur="0.7s"
-        repeatCount="indefinite"
-        type="translate"
-        values="1 -5; -2 10"
-      />
-      <animate
-        attributeName="opacity"
-        begin="-0.4s"
-        dur="0.7s"
-        repeatCount="indefinite"
-        values="0;1;1;0"
-      />
-    </path>
-    <path
-      fill="none"
-      stroke="url(#thunderstorms-rain_svg__d)"
-      strokeLinecap="round"
-      strokeMiterlimit={10}
-      strokeWidth={2}
-      d="m38.39 43.03-.78 4.94"
-    >
-      <animateTransform
-        attributeName="transform"
-        begin="-0.2s"
-        dur="0.7s"
-        repeatCount="indefinite"
-        type="translate"
-        values="1 -5; -2 10"
-      />
-      <animate
-        attributeName="opacity"
-        begin="-0.2s"
-        dur="0.7s"
-        repeatCount="indefinite"
-        values="0;1;1;0"
-      />
-    </path>
-    <path
-      fill="url(#thunderstorms-rain_svg__e)"
-      stroke="#f6a823"
-      strokeMiterlimit={10}
-      strokeWidth={0.5}
-      d="m30 36-4 12h4l-2 10 10-14h-6l4-8h-6z"
-    >
-      <animate
-        attributeName="opacity"
-        dur="2s"
-        repeatCount="indefinite"
-        values="1; 1; 1; 1; 1; 1; 0.1; 1; 0.1; 1; 1; 0.1; 1; 0.1; 1"
-      />
-    </path>
+    <use
+      xlinkHref="#thunderstorms-rain_svg__m"
+      width={129}
+      height={57}
+      transform="translate(191.5 343.5)"
+    />
+    <use
+      xlinkHref="#thunderstorms-rain_svg__n"
+      width={102.7}
+      height={186.7}
+      transform="translate(205.23 291)"
+    />
   </svg>
 );
 export default SvgThunderstormsRain;

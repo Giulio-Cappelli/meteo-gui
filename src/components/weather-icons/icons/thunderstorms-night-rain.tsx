@@ -3,191 +3,155 @@ const SvgThunderstormsNightRain = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
-    viewBox="0 0 64 64"
+    viewBox="0 0 512 512"
     role="img"
     {...props}
   >
     <defs>
       <linearGradient
-        id="thunderstorms-night-rain_svg__b"
-        x1={13.58}
-        x2={24.15}
-        y1={15.57}
-        y2={33.87}
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop offset={0} stopColor="#86c3db" />
-        <stop offset={0.45} stopColor="#86c3db" />
-        <stop offset={1} stopColor="#5eafcf" />
-        <animateTransform
-          attributeName="gradientTransform"
-          dur="10s"
-          repeatCount="indefinite"
-          type="rotate"
-          values="10 19.22 24.293; -10 19.22 24.293; 10 19.22 24.293"
-        />
-      </linearGradient>
-      <linearGradient
         id="thunderstorms-night-rain_svg__c"
-        x1={22.56}
-        x2={39.2}
-        y1={21.96}
-        y2={50.8}
+        x1={99.5}
+        x2={232.6}
+        y1={30.7}
+        y2={261.4}
         gradientUnits="userSpaceOnUse"
       >
         <stop offset={0} stopColor="#f3f7fe" />
-        <stop offset={0.45} stopColor="#f3f7fe" />
+        <stop offset={0.5} stopColor="#f3f7fe" />
         <stop offset={1} stopColor="#deeafb" />
       </linearGradient>
       <linearGradient
-        id="thunderstorms-night-rain_svg__a"
-        x1={22.53}
-        x2={25.47}
-        y1={42.95}
-        y2={48.05}
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop offset={0} stopColor="#4286ee" />
-        <stop offset={0.45} stopColor="#4286ee" />
-        <stop offset={1} stopColor="#0950bc" />
-      </linearGradient>
-      <linearGradient
-        id="thunderstorms-night-rain_svg__d"
-        x1={29.53}
-        x2={32.47}
-        y1={42.95}
-        y2={48.05}
-        xlinkHref="#thunderstorms-night-rain_svg__a"
-      />
-      <linearGradient
-        id="thunderstorms-night-rain_svg__e"
-        x1={36.53}
-        x2={39.47}
-        y1={42.95}
-        y2={48.05}
-        xlinkHref="#thunderstorms-night-rain_svg__a"
-      />
-      <linearGradient
-        id="thunderstorms-night-rain_svg__f"
-        x1={26.74}
-        x2={35.76}
-        y1={37.88}
-        y2={53.52}
+        id="thunderstorms-night-rain_svg__n"
+        x1={8.7}
+        x2={80.9}
+        y1={17.1}
+        y2={142.1}
         gradientUnits="userSpaceOnUse"
       >
         <stop offset={0} stopColor="#f7b23b" />
-        <stop offset={0.45} stopColor="#f7b23b" />
+        <stop offset={0.5} stopColor="#f7b23b" />
         <stop offset={1} stopColor="#f59e0b" />
       </linearGradient>
+      <linearGradient
+        id="thunderstorms-night-rain_svg__b"
+        x1={34.7}
+        x2={119.2}
+        y1={18.6}
+        y2={165}
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset={0} stopColor="#86c3db" />
+        <stop offset={0.5} stopColor="#86c3db" />
+        <stop offset={1} stopColor="#5eafcf" />
+      </linearGradient>
+      <linearGradient
+        id="thunderstorms-night-rain_svg__a"
+        x1={1381.3}
+        x2={1399.5}
+        y1={-1144.7}
+        y2={-1097.4}
+        gradientTransform="rotate(-9 8002.567 8233.063)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset={0} stopColor="#0b65ed" />
+        <stop offset={0.5} stopColor="#0a5ad4" />
+        <stop offset={1} stopColor="#0950bc" />
+      </linearGradient>
+      <linearGradient
+        xlinkHref="#thunderstorms-night-rain_svg__a"
+        id="thunderstorms-night-rain_svg__h"
+        x1={1436.7}
+        x2={1454.9}
+        y1={-1137}
+        y2={-1089.7}
+        gradientTransform="rotate(-9 8009.537 8233.037)"
+      />
+      <linearGradient
+        xlinkHref="#thunderstorms-night-rain_svg__a"
+        id="thunderstorms-night-rain_svg__k"
+        x1={1492.1}
+        x2={1510.3}
+        y1={-1129.3}
+        y2={-1082.1}
+        gradientTransform="rotate(-9 8016.566 8233.078)"
+      />
+      <symbol id="thunderstorms-night-rain_svg__d" viewBox="0 0 172 172">
+        <path
+          fill="url(#thunderstorms-night-rain_svg__b)"
+          stroke="#72b9d5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={4}
+          d="M160.6 107.4a84.8 84.8 0 0 1-85.4-84.3A83.3 83.3 0 0 1 78 2 84.7 84.7 0 0 0 2 85.7 84.8 84.8 0 0 0 87.4 170a85.2 85.2 0 0 0 82.6-63.1 88 88 0 0 1-9.4.5Z"
+        >
+          <animateTransform
+            additive="sum"
+            attributeName="transform"
+            dur="6s"
+            repeatCount="indefinite"
+            type="rotate"
+            values="-15 86 86; 9 86 86; -15 86 86"
+          />
+        </path>
+      </symbol>
+      <symbol id="thunderstorms-night-rain_svg__e" viewBox="0 0 350 222">
+        <path
+          fill="url(#thunderstorms-night-rain_svg__c)"
+          stroke="#e6effc"
+          strokeMiterlimit={10}
+          strokeWidth={6}
+          d="m291 107-2.5.1A83.9 83.9 0 0 0 135.6 43 56 56 0 0 0 51 91a56.6 56.6 0 0 0 .8 9A60 60 0 0 0 63 219l4-.2v.2h224a56 56 0 0 0 0-112Z"
+        />
+      </symbol>
+      <symbol id="thunderstorms-night-rain_svg__o" viewBox="0 0 351 246">
+        <use
+          xlinkHref="#thunderstorms-night-rain_svg__d"
+          width={172}
+          height={172}
+        />
+        <use
+          xlinkHref="#thunderstorms-night-rain_svg__e"
+          width={350}
+          height={222}
+          transform="translate(1 24)"
+        />
+      </symbol>
+      <symbol id="thunderstorms-night-rain_svg__q" viewBox="0 0 102.7 186.8">
+        <path
+          fill="url(#thunderstorms-night-rain_svg__n)"
+          stroke="#f6a823"
+          strokeMiterlimit={10}
+          strokeWidth={4}
+          d="m34.8 2-32 96h32l-16 80 80-112h-48l32-64h-48z"
+        >
+          <animate
+            attributeName="opacity"
+            begin="0s; f.end+.67s"
+            dur="1.33s"
+            keyTimes="0; .38; .5; .63; .75; .86; .94; 1"
+            values="1; 1; 0; 1; 0; 1; 0; 1"
+          />
+        </path>
+      </symbol>
     </defs>
-    <g>
-      <path
-        fill="url(#thunderstorms-night-rain_svg__b)"
-        stroke="#72b9d5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth={0.5}
-        d="M29.33 26.68a10.61 10.61 0 0 1-10.68-10.54A10.5 10.5 0 0 1 19 13.5a10.54 10.54 0 1 0 11.5 13.11 11.48 11.48 0 0 1-1.17.07z"
-      />
-      <animateTransform
-        attributeName="transform"
-        dur="10s"
-        repeatCount="indefinite"
-        type="rotate"
-        values="-10 19.22 24.293; 10 19.22 24.293; -10 19.22 24.293"
-      />
-    </g>
-    <path
-      fill="url(#thunderstorms-night-rain_svg__c)"
-      stroke="#e6effc"
-      strokeMiterlimit={10}
-      strokeWidth={0.5}
-      d="M46.5 31.5h-.32a10.49 10.49 0 0 0-19.11-8 7 7 0 0 0-10.57 6 7.21 7.21 0 0 0 .1 1.14A7.5 7.5 0 0 0 18 45.5a4.19 4.19 0 0 0 .5 0h28a7 7 0 0 0 0-14z"
+    <use
+      xlinkHref="#thunderstorms-night-rain_svg__o"
+      width={351}
+      height={246}
+      transform="translate(80 121)"
     />
-    <path
-      fill="none"
-      stroke="url(#thunderstorms-night-rain_svg__a)"
-      strokeLinecap="round"
-      strokeMiterlimit={10}
-      strokeWidth={2}
-      d="m24.39 43.03-.78 4.94"
-    >
-      <animateTransform
-        attributeName="transform"
-        dur="0.7s"
-        repeatCount="indefinite"
-        type="translate"
-        values="1 -5; -2 10"
-      />
-      <animate
-        attributeName="opacity"
-        dur="0.7s"
-        repeatCount="indefinite"
-        values="0;1;1;0"
-      />
-    </path>
-    <path
-      fill="none"
-      stroke="url(#thunderstorms-night-rain_svg__d)"
-      strokeLinecap="round"
-      strokeMiterlimit={10}
-      strokeWidth={2}
-      d="m31.39 43.03-.78 4.94"
-    >
-      <animateTransform
-        attributeName="transform"
-        begin="-0.4s"
-        dur="0.7s"
-        repeatCount="indefinite"
-        type="translate"
-        values="1 -5; -2 10"
-      />
-      <animate
-        attributeName="opacity"
-        begin="-0.4s"
-        dur="0.7s"
-        repeatCount="indefinite"
-        values="0;1;1;0"
-      />
-    </path>
-    <path
-      fill="none"
-      stroke="url(#thunderstorms-night-rain_svg__e)"
-      strokeLinecap="round"
-      strokeMiterlimit={10}
-      strokeWidth={2}
-      d="m38.39 43.03-.78 4.94"
-    >
-      <animateTransform
-        attributeName="transform"
-        begin="-0.2s"
-        dur="0.7s"
-        repeatCount="indefinite"
-        type="translate"
-        values="1 -5; -2 10"
-      />
-      <animate
-        attributeName="opacity"
-        begin="-0.2s"
-        dur="0.7s"
-        repeatCount="indefinite"
-        values="0;1;1;0"
-      />
-    </path>
-    <path
-      fill="url(#thunderstorms-night-rain_svg__f)"
-      stroke="#f6a823"
-      strokeMiterlimit={10}
-      strokeWidth={0.5}
-      d="m30 36-4 12h4l-2 10 10-14h-6l4-8h-6z"
-    >
-      <animate
-        attributeName="opacity"
-        dur="2s"
-        repeatCount="indefinite"
-        values="1; 1; 1; 1; 1; 1; 0.1; 1; 0.1; 1; 1; 0.1; 1; 0.1; 1"
-      />
-    </path>
+    <use
+      xlinkHref="#thunderstorms-night-rain_svg__p"
+      width={129}
+      height={57}
+      transform="translate(191.5 343.5)"
+    />
+    <use
+      xlinkHref="#thunderstorms-night-rain_svg__q"
+      width={102.7}
+      height={186.7}
+      transform="translate(205.23 291)"
+    />
   </svg>
 );
 export default SvgThunderstormsNightRain;

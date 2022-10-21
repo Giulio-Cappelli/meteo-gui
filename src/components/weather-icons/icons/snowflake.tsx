@@ -2,59 +2,62 @@ import * as React from "react";
 const SvgSnowflake = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    xmlnsXlink="http://www.w3.org/1999/xlink"
-    viewBox="0 0 64 64"
+    viewBox="0 0 512 512"
     role="img"
     {...props}
   >
     <defs>
       <linearGradient
         id="snowflake_svg__a"
-        x1={26.75}
-        x2={37.25}
-        y1={22.91}
-        y2={41.09}
+        x1={192}
+        x2={320}
+        y1={145.2}
+        y2={366.8}
         gradientUnits="userSpaceOnUse"
       >
         <stop offset={0} stopColor="#86c3db" />
-        <stop offset={0.45} stopColor="#86c3db" />
+        <stop offset={0.5} stopColor="#86c3db" />
         <stop offset={1} stopColor="#5eafcf" />
       </linearGradient>
-      <linearGradient
-        id="snowflake_svg__b"
-        x1={24}
-        x2={40}
-        y1={18.15}
-        y2={45.85}
-        xlinkHref="#snowflake_svg__a"
-      />
     </defs>
-    <g>
-      <circle
-        cx={32}
-        cy={32}
-        r={7.5}
-        fill="none"
-        stroke="url(#snowflake_svg__a)"
-        strokeMiterlimit={10}
-        strokeWidth={6}
-      />
-      <path
-        fill="none"
-        stroke="url(#snowflake_svg__b)"
-        strokeLinecap="round"
-        strokeMiterlimit={10}
-        strokeWidth={6}
-        d="m45 39.5-6.5-3.75m-13-7.5L19 24.5M32 17v7.5M32 47v-7.5m-6.5-3.75L19 39.5m26-15-6.5 3.75"
-      />
+    <path
+      fill="url(#snowflake_svg__a)"
+      stroke="#72b9d5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={4}
+      d="m372 295.2-34.3-19.7a83.8 83.8 0 0 0 0-39l34.3-19.7a24 24 0 1 0-24-41.6L313.7 195a81.4 81.4 0 0 0-33.7-19.4V136a24 24 0 0 0-48 0v39.6a84 84 0 0 0-33.7 19.4L164 175.2a24 24 0 1 0-24 41.6l34.3 19.7a83.8 83.8 0 0 0 0 39L140 295.1a24 24 0 1 0 24 41.6l34.3-19.8a80.6 80.6 0 0 0 33.7 19.4V376a24 24 0 0 0 48 0v-39.7a84 84 0 0 0 33.7-19.3l34.3 19.8a24 24 0 1 0 24-41.6Zm-134-8a36 36 0 1 1 49.2-13.2 36 36 0 0 1-49.2 13.2Z"
+    >
       <animateTransform
         attributeName="transform"
-        dur="18s"
+        calcMode="spline"
+        dur="6s"
+        keySplines=".42, 0, .58, 1; .42, 0, .58, 1; .42, 0, .58, 1; .42, 0, .58, 1"
+        repeatCount="indefinite"
+        type="scale"
+        values="1 1; .9 .9; 1 1; .9 .9; 1 1"
+      />
+      <animateTransform
+        additive="sum"
+        attributeName="transform"
+        calcMode="spline"
+        dur="6s"
+        keySplines=".42, 0, .58, 1; .42, 0, .58, 1; .42, 0, .58, 1; .42, 0, .58, 1"
+        repeatCount="indefinite"
+        type="translate"
+        values="0 0; 25.75 25.75; 0 0; 25.75 25.75; 0 0"
+      />
+      <animateTransform
+        additive="sum"
+        attributeName="transform"
+        calcMode="spline"
+        dur="6s"
+        keySplines=".42, 0, .58, 1; .42, 0, .58, 1"
         repeatCount="indefinite"
         type="rotate"
-        values="0 32 32; 360 32 32"
+        values="-6 256 256; 6 256 256; -6 256 256"
       />
-    </g>
+    </path>
   </svg>
 );
 export default SvgSnowflake;

@@ -2,39 +2,49 @@ import * as React from "react";
 const SvgCloudy = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 64 64"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 512 512"
     role="img"
     {...props}
   >
     <defs>
       <linearGradient
         id="cloudy_svg__a"
-        x1={22.56}
-        x2={39.2}
-        y1={21.96}
-        y2={50.8}
+        x1={99.5}
+        x2={232.6}
+        y1={30.7}
+        y2={261.4}
         gradientUnits="userSpaceOnUse"
       >
         <stop offset={0} stopColor="#f3f7fe" />
-        <stop offset={0.45} stopColor="#f3f7fe" />
+        <stop offset={0.5} stopColor="#f3f7fe" />
         <stop offset={1} stopColor="#deeafb" />
       </linearGradient>
+      <symbol id="cloudy_svg__b" viewBox="0 0 350 222">
+        <path
+          fill="url(#cloudy_svg__a)"
+          stroke="#e6effc"
+          strokeMiterlimit={10}
+          strokeWidth={6}
+          d="m291 107-2.5.1A83.9 83.9 0 0 0 135.6 43 56 56 0 0 0 51 91a56.6 56.6 0 0 0 .8 9A60 60 0 0 0 63 219l4-.2v.2h224a56 56 0 0 0 0-112Z"
+        />
+      </symbol>
     </defs>
-    <path
-      fill="url(#cloudy_svg__a)"
-      stroke="#e6effc"
-      strokeMiterlimit={10}
-      strokeWidth={0.5}
-      d="M46.5 31.5h-.32a10.49 10.49 0 0 0-19.11-8 7 7 0 0 0-10.57 6 7.21 7.21 0 0 0 .1 1.14A7.5 7.5 0 0 0 18 45.5a4.19 4.19 0 0 0 .5 0h28a7 7 0 0 0 0-14z"
+    <use
+      xlinkHref="#cloudy_svg__b"
+      width={350}
+      height={222}
+      transform="translate(81 145)"
     >
       <animateTransform
+        additive="sum"
         attributeName="transform"
-        dur="7s"
+        dur="6s"
         repeatCount="indefinite"
         type="translate"
-        values="-3 0; 3 0; -3 0"
+        values="-18 0; 18 0; -18 0"
       />
-    </path>
+    </use>
   </svg>
 );
 export default SvgCloudy;

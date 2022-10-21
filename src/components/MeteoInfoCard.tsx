@@ -1,4 +1,5 @@
-import { Card, Divider, Grid, Space, Text } from "@mantine/core";
+import { Card, Divider, Grid, Space, Title } from "@mantine/core";
+import convertDate from "./functions/convertDate";
 import { Giorno } from "./types";
 import WeatherRangeDisplayer from "./WeatherRangeDisplayer";
 import WeatherRangeTemperature from "./WeatherRangeTemperature";
@@ -9,9 +10,16 @@ const MeteoInfoCard = (props: { giorno: Giorno | undefined }) => {
   console.log("MeteoInfoCard:", giorno);
 
   if (giorno != undefined) {
+    const { giorno_txt, giorno_num, mese_num } = convertDate(giorno);
+
     return (
       <Card radius={"md"}>
-        <Text align="center">{giorno.giorno}</Text>
+        <Title order={3} align="center">
+          {giorno_txt}
+        </Title>
+        <Title order={4} align="center">
+          {giorno_num + "/" + mese_num}
+        </Title>
         <Space h={"xs"} />
         <Divider />
         <Space h={"xs"} />

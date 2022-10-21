@@ -2,63 +2,75 @@ import * as React from "react";
 const SvgUvIndex4 = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 64 64"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 512 512"
     role="img"
     {...props}
   >
     <defs>
       <linearGradient
         id="uv-index-4_svg__a"
-        x1={26.75}
-        x2={37.25}
-        y1={22.91}
-        y2={41.09}
+        x1={150}
+        x2={234}
+        y1={119.2}
+        y2={264.8}
         gradientUnits="userSpaceOnUse"
       >
         <stop offset={0} stopColor="#fbbf24" />
-        <stop offset={0.45} stopColor="#fbbf24" />
+        <stop offset={0.5} stopColor="#fbbf24" />
         <stop offset={1} stopColor="#f59e0b" />
       </linearGradient>
+      <clipPath id="uv-index-4_svg__b">
+        <path fill="none" d="M64 64h384v192H328a72 72 0 0 0-72 72v120H64Z" />
+      </clipPath>
+      <symbol id="uv-index-4_svg__c" viewBox="0 0 384 384">
+        <circle
+          cx={192}
+          cy={192}
+          r={84}
+          fill="url(#uv-index-4_svg__a)"
+          stroke="#f8af18"
+          strokeMiterlimit={10}
+          strokeWidth={6}
+        />
+        <path
+          fill="none"
+          stroke="#fbbf24"
+          strokeLinecap="round"
+          strokeMiterlimit={10}
+          strokeWidth={24}
+          d="M192 61.7V12m0 360v-49.7m92.2-222.5 35-35M64.8 319.2l35.1-35.1m0-184.4-35-35m254.5 254.5-35.1-35.1M61.7 192H12m360 0h-49.7"
+        >
+          <animateTransform
+            additive="sum"
+            attributeName="transform"
+            dur="6s"
+            repeatCount="indefinite"
+            type="rotate"
+            values="0 192 192; 45 192 192"
+          />
+        </path>
+      </symbol>
     </defs>
-    <circle
-      cx={32}
-      cy={32}
-      r={10.5}
-      fill="url(#uv-index-4_svg__a)"
-      stroke="#f8af18"
-      strokeMiterlimit={10}
-      strokeWidth={0.5}
-    />
-    <path
-      fill="none"
-      stroke="#fbbf24"
-      strokeLinecap="round"
-      strokeMiterlimit={10}
-      strokeWidth={3}
-      d="M32 15.71V9.5m0 45v-6.21m11.52-27.81 4.39-4.39M16.09 47.91l4.39-4.39m0-23-4.39-4.39m31.82 31.78-4.39-4.39M15.71 32H9.5m45 0h-6.21"
-    >
-      <animateTransform
-        attributeName="transform"
-        dur="45s"
-        repeatCount="indefinite"
-        type="rotate"
-        values="0 32 32; 360 32 32"
+    <g clipPath="url(#uv-index-4_svg__b)">
+      <use
+        xlinkHref="#uv-index-4_svg__c"
+        width={384}
+        height={384}
+        transform="translate(64 64)"
       />
-    </path>
-    <rect
-      width={21}
-      height={21}
-      x={33.5}
-      y={33.5}
-      fill="#ffb800"
-      stroke="#fff"
-      strokeMiterlimit={10}
-      strokeWidth={2}
-      rx={6}
-    />
+      <path
+        fill="none"
+        stroke="#f8af18"
+        strokeMiterlimit={10}
+        strokeWidth={6}
+        d="M254 338v-10a74 74 0 0 1 74-74h10"
+      />
+    </g>
+    <rect width={144} height={144} x={280} y={280} fill="#ffb800" rx={48} />
     <path
       fill="#fff"
-      d="M47.4 44.87a.53.53 0 0 1 .1.36v.63a.55.55 0 0 1-.1.36.54.54 0 0 1-.38.1h-.64v1.22a.5.5 0 0 1-.11.36.51.51 0 0 1-.37.1h-.81a.51.51 0 0 1-.37-.1.5.5 0 0 1-.11-.36v-1.22H41a.54.54 0 0 1-.38-.1.5.5 0 0 1-.1-.36v-.56a1.44 1.44 0 0 1 0-.35.92.92 0 0 1 .17-.25l3.66-4.37a1 1 0 0 1 .3-.26A.81.81 0 0 1 45 40h.86a.51.51 0 0 1 .37.1.5.5 0 0 1 .11.36v4.31H47a.54.54 0 0 1 .4.1zm-4.79-.1h2v-2.38z"
+      d="M372.2 316v42.5l10.5-.3v14.3l-10.6-.3V388h-17.6v-15.8l-33.2.3V356l32.5-40.1Zm-36.6 42.5h19v-22.8h-.3Z"
     />
   </svg>
 );

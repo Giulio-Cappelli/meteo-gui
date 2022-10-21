@@ -3,54 +3,54 @@ const SvgTornado = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
-    viewBox="0 0 64 64"
+    viewBox="0 0 512 512"
     role="img"
     {...props}
   >
     <defs>
       <linearGradient
         id="tornado_svg__a"
-        x1={27.5}
-        x2={36.5}
-        y1={12.21}
-        y2={27.79}
+        x1={220}
+        x2={292}
+        y1={97.7}
+        y2={222.3}
         gradientUnits="userSpaceOnUse"
       >
         <stop offset={0} stopColor="#d4d7dd" />
-        <stop offset={0.45} stopColor="#d4d7dd" />
+        <stop offset={0.5} stopColor="#d4d7dd" />
         <stop offset={1} stopColor="#bec1c6" />
       </linearGradient>
       <linearGradient
+        xlinkHref="#tornado_svg__a"
         id="tornado_svg__b"
-        x1={28}
-        x2={36}
-        y1={19.07}
-        y2={32.93}
-        xlinkHref="#tornado_svg__a"
+        x1={224}
+        x2={288}
+        y1={152.6}
+        y2={263.4}
       />
       <linearGradient
+        xlinkHref="#tornado_svg__a"
         id="tornado_svg__c"
-        x1={28.63}
-        x2={35.38}
-        y1={26.15}
-        y2={37.85}
-        xlinkHref="#tornado_svg__a"
+        x1={229}
+        x2={283}
+        y1={209.2}
+        y2={302.8}
       />
       <linearGradient
+        xlinkHref="#tornado_svg__a"
         id="tornado_svg__d"
-        x1={29.25}
-        x2={34.75}
-        y1={33.24}
-        y2={42.76}
-        xlinkHref="#tornado_svg__a"
+        x1={234}
+        x2={278}
+        y1={265.9}
+        y2={342.1}
       />
       <linearGradient
-        id="tornado_svg__e"
-        x1={30.25}
-        x2={33.75}
-        y1={40.97}
-        y2={47.03}
         xlinkHref="#tornado_svg__a"
+        id="tornado_svg__e"
+        x1={242}
+        x2={270}
+        y1={327.8}
+        y2={376.3}
       />
     </defs>
     <path
@@ -58,15 +58,18 @@ const SvgTornado = (props: any) => (
       stroke="url(#tornado_svg__a)"
       strokeLinecap="round"
       strokeMiterlimit={10}
-      strokeWidth={3}
-      d="M17 20h30"
+      strokeWidth={24}
+      d="M136 160h240"
     >
       <animateTransform
+        additive="sum"
         attributeName="transform"
-        dur="2s"
+        calcMode="spline"
+        dur="3s"
+        keySplines=".42, 0, .58, 1; .42, 0, .58, 1"
         repeatCount="indefinite"
         type="translate"
-        values="-3 0; 3 0; -3 0"
+        values="-12 0; 12 0; -12 0"
       />
     </path>
     <path
@@ -74,16 +77,18 @@ const SvgTornado = (props: any) => (
       stroke="url(#tornado_svg__b)"
       strokeLinecap="round"
       strokeMiterlimit={10}
-      strokeWidth={3}
-      d="M19 26h26"
+      strokeWidth={24}
+      d="M152 208h208"
     >
       <animateTransform
+        additive="sum"
         attributeName="transform"
-        begin="-0.2s"
-        dur="2s"
+        calcMode="spline"
+        dur="3s"
+        keySplines=".42, 0, .58, 1; .42, 0, .58, 1"
         repeatCount="indefinite"
         type="translate"
-        values="-4 0; 4 0; -4 0"
+        values="-24 0; 24 0; -24 0"
       />
     </path>
     <path
@@ -91,16 +96,18 @@ const SvgTornado = (props: any) => (
       stroke="url(#tornado_svg__c)"
       strokeLinecap="round"
       strokeMiterlimit={10}
-      strokeWidth={3}
-      d="M21.5 32h21"
+      strokeWidth={24}
+      d="M172 256h168"
     >
       <animateTransform
+        additive="sum"
         attributeName="transform"
-        begin="-0.4s"
-        dur="2s"
+        calcMode="spline"
+        dur="3s"
+        keySplines=".42, 0, .58, 1; .42, 0, .58, 1"
         repeatCount="indefinite"
         type="translate"
-        values="-5 0; 5 0; -5 0"
+        values="-36 0; 36 0; -36 0"
       />
     </path>
     <path
@@ -108,16 +115,18 @@ const SvgTornado = (props: any) => (
       stroke="url(#tornado_svg__d)"
       strokeLinecap="round"
       strokeMiterlimit={10}
-      strokeWidth={3}
-      d="M24 38h16"
+      strokeWidth={24}
+      d="M192 304h128"
     >
       <animateTransform
+        additive="sum"
         attributeName="transform"
-        begin="-0.6s"
-        dur="2s"
+        calcMode="spline"
+        dur="3s"
+        keySplines=".42, 0, .58, 1; .42, 0, .58, 1"
         repeatCount="indefinite"
         type="translate"
-        values="-6 0; 6 0; -6 0"
+        values="-48 0; 48 0; -48 0"
       />
     </path>
     <path
@@ -125,16 +134,18 @@ const SvgTornado = (props: any) => (
       stroke="url(#tornado_svg__e)"
       strokeLinecap="round"
       strokeMiterlimit={10}
-      strokeWidth={3}
-      d="M28 44h8"
+      strokeWidth={24}
+      d="M224 352h64"
     >
       <animateTransform
+        additive="sum"
         attributeName="transform"
-        begin="-0.8s"
-        dur="2s"
+        calcMode="spline"
+        dur="3s"
+        keySplines=".42, 0, .58, 1; .42, 0, .58, 1"
         repeatCount="indefinite"
         type="translate"
-        values="-7 0; 7 0; -7 0"
+        values="-60 0; 60 0; -60 0"
       />
     </path>
   </svg>

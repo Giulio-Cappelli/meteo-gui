@@ -2,43 +2,40 @@ import * as React from "react";
 const SvgMoonFirstQuarter = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 64 64"
+    viewBox="0 0 512 512"
     role="img"
     {...props}
   >
     <defs>
       <linearGradient
         id="moon-first-quarter_svg__a"
-        x1={24.26}
-        x2={40.74}
-        y1={18.57}
-        y2={47.1}
+        x1={193.7}
+        x2={325.5}
+        y1={147.7}
+        y2={376}
         gradientUnits="userSpaceOnUse"
       >
         <stop offset={0} stopColor="#86c3db" />
-        <stop offset={0.45} stopColor="#86c3db" />
+        <stop offset={0.5} stopColor="#86c3db" />
         <stop offset={1} stopColor="#5eafcf" />
       </linearGradient>
     </defs>
-    <circle
-      cx={32}
-      cy={32}
-      r={16.5}
+    <path
       fill="none"
       stroke="#e5e7eb"
-      strokeDasharray="1.99 5.98"
+      strokeDasharray="16.9 56.2"
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth={2}
-      transform="rotate(-45 32.002 31.994)"
+      strokeWidth={17.4}
+      d="M384 256a128 128 0 0 0-128-128c-169.8 6.7-169.7 249.3 0 256a128 128 0 0 0 128-128Z"
     />
     <path
       fill="url(#moon-first-quarter_svg__a)"
       stroke="#72b9d5"
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth={0.5}
-      d="M38.8 15.87a17.48 17.48 0 0 0-7.12-1.58 17.37 17.37 0 0 1-13 29.32 13.42 13.42 0 0 0 5.93 4.23A17.68 17.68 0 0 0 48 39.12a17.68 17.68 0 0 0-9.2-23.25z"
+      strokeWidth={6}
+      d="M310 126.1a140.4 140.4 0 0 0-57-12.6 140 140 0 0 1 26 152.1A140 140 0 0 1 148.7 348c14 17.3 25.6 24.1 47.5 33.9 72 32 156 .8 187.4-69.8s-1.5-153.9-73.6-186Z"
     />
   </svg>
 );

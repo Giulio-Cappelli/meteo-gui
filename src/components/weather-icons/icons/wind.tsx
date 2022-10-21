@@ -3,65 +3,72 @@ const SvgWind = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
-    viewBox="0 0 64 64"
+    viewBox="0 0 512 512"
     role="img"
     {...props}
   >
     <defs>
       <linearGradient
         id="wind_svg__a"
-        x1={27.56}
-        x2={38.27}
-        y1={17.64}
-        y2={36.19}
+        x1={138.5}
+        x2={224.2}
+        y1={5.1}
+        y2={153.5}
         gradientUnits="userSpaceOnUse"
       >
         <stop offset={0} stopColor="#d4d7dd" />
-        <stop offset={0.45} stopColor="#d4d7dd" />
+        <stop offset={0.5} stopColor="#d4d7dd" />
         <stop offset={1} stopColor="#bec1c6" />
       </linearGradient>
       <linearGradient
-        id="wind_svg__b"
-        x1={19.96}
-        x2={31.37}
-        y1={29.03}
-        y2={48.8}
         xlinkHref="#wind_svg__a"
+        id="wind_svg__b"
+        x1={77.7}
+        x2={169}
+        y1={96.2}
+        y2={254.4}
       />
+      <symbol id="wind_svg__c" viewBox="0 0 348 240">
+        <path
+          fill="none"
+          stroke="url(#wind_svg__a)"
+          strokeDasharray={148}
+          strokeLinecap="round"
+          strokeMiterlimit={10}
+          strokeWidth={24}
+          d="M267.2 24.3A40 40 0 1 1 296 92H12"
+        >
+          <animate
+            attributeName="stroke-dashoffset"
+            dur="6s"
+            repeatCount="indefinite"
+            values="0; 2960"
+          />
+        </path>
+        <path
+          fill="none"
+          stroke="url(#wind_svg__b)"
+          strokeDasharray={110}
+          strokeLinecap="round"
+          strokeMiterlimit={10}
+          strokeWidth={24}
+          d="M151.2 215.7A40 40 0 1 0 180 148H12"
+        >
+          <animate
+            attributeName="stroke-dashoffset"
+            dur="6s"
+            repeatCount="indefinite"
+            values="0; 1540"
+          />
+        </path>
+      </symbol>
     </defs>
-    <path
-      fill="none"
-      stroke="url(#wind_svg__a)"
-      strokeDasharray="35 22"
-      strokeLinecap="round"
-      strokeMiterlimit={10}
-      strokeWidth={3}
-      d="M43.64 20a5 5 0 1 1 3.61 8.46h-35.5"
-    >
-      <animate
-        attributeName="stroke-dashoffset"
-        dur="2s"
-        repeatCount="indefinite"
-        values="-57; 57"
-      />
-    </path>
-    <path
-      fill="none"
-      stroke="url(#wind_svg__b)"
-      strokeDasharray="24 15"
-      strokeLinecap="round"
-      strokeMiterlimit={10}
-      strokeWidth={3}
-      d="M29.14 44a5 5 0 1 0 3.61-8.46h-21"
-    >
-      <animate
-        attributeName="stroke-dashoffset"
-        begin="-1.5s"
-        dur="2s"
-        repeatCount="indefinite"
-        values="-39; 39"
-      />
-    </path>
+    <use
+      xlinkHref="#wind_svg__c"
+      width={348}
+      height={240}
+      transform="translate(82 136)"
+    />
   </svg>
 );
 export default SvgWind;

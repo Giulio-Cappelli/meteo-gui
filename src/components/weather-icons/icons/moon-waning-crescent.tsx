@@ -2,43 +2,41 @@ import * as React from "react";
 const SvgMoonWaningCrescent = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 64 64"
+    viewBox="0 0 512 512"
     role="img"
     {...props}
   >
     <defs>
       <linearGradient
         id="moon-waning-crescent_svg__a"
-        x1={17.54}
-        x2={35.04}
-        y1={20.14}
-        y2={50.45}
+        x1={11988.7}
+        x2={12107.6}
+        y1={166.7}
+        y2={372.6}
+        gradientTransform="matrix(-1 0 0 1 12286.71 0)"
         gradientUnits="userSpaceOnUse"
       >
         <stop offset={0} stopColor="#86c3db" />
-        <stop offset={0.45} stopColor="#86c3db" />
+        <stop offset={0.5} stopColor="#86c3db" />
         <stop offset={1} stopColor="#5eafcf" />
       </linearGradient>
     </defs>
-    <circle
-      cx={32}
-      cy={32}
-      r={16.5}
+    <path
       fill="none"
       stroke="#e5e7eb"
-      strokeDasharray="1.99 5.98"
+      strokeDasharray="16.9 56.2"
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth={2}
-      transform="rotate(-45 32.002 31.994)"
+      strokeWidth={17.4}
+      d="M384 256a128 128 0 0 0-128-128c-169.8 6.7-169.7 249.3 0 256a128 128 0 0 0 128-128Z"
     />
     <path
       fill="url(#moon-waning-crescent_svg__a)"
       stroke="#72b9d5"
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth={0.5}
-      d="M41.25 46.82c-16.7.48-25.61-19.52-14.07-31.61h0l.08-.06a18.38 18.38 0 0 0-2.38.86A17.5 17.5 0 1 0 39.12 48a18.21 18.21 0 0 0 2.23-1.19z"
+      strokeWidth={6}
+      d="M199 127.5a142.4 142.4 0 0 1 19.2-7l-.8.6h0c-92.2 96.7-21 256.7 112.6 252.8l.8-.1a140 140 0 1 1-131.7-246.3Z"
     />
   </svg>
 );

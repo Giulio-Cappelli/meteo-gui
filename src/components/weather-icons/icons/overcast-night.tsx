@@ -2,101 +2,135 @@ import * as React from "react";
 const SvgOvercastNight = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 64 64"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 512 512"
     role="img"
     {...props}
   >
     <defs>
-      <linearGradient
-        id="overcast-night_svg__a"
-        x1={13.58}
-        x2={24.15}
-        y1={15.57}
-        y2={33.87}
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop offset={0} stopColor="#86c3db" />
-        <stop offset={0.45} stopColor="#86c3db" />
-        <stop offset={1} stopColor="#5eafcf" />
-        <animateTransform
-          attributeName="gradientTransform"
-          dur="10s"
-          repeatCount="indefinite"
-          type="rotate"
-          values="10 19.22 24.293; -10 19.22 24.293; 10 19.22 24.293"
+      <symbol id="overcast-night_svg__f" viewBox="0 0 172 172">
+        <path
+          fill="url(#overcast-night_svg__a)"
+          stroke="#72b9d5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={4}
+          d="M160.6 107.4a84.8 84.8 0 0 1-85.4-84.3A83.3 83.3 0 0 1 78 2 84.7 84.7 0 0 0 2 85.7 84.8 84.8 0 0 0 87.4 170a85.2 85.2 0 0 0 82.6-63.1 88 88 0 0 1-9.4.5Z"
+        >
+          <animateTransform
+            additive="sum"
+            attributeName="transform"
+            dur="6s"
+            repeatCount="indefinite"
+            type="rotate"
+            values="-15 86 86; 9 86 86; -15 86 86"
+          />
+        </path>
+      </symbol>
+      <symbol id="overcast-night_svg__d" viewBox="0 0 200.3 126.1">
+        <path
+          fill="url(#overcast-night_svg__b)"
+          stroke="#848b98"
+          strokeMiterlimit={10}
+          d="M.5 93.2a32.4 32.4 0 0 0 32.4 32.4h129.8v-.1l2.3.1a34.8 34.8 0 0 0 6.5-68.9 32.4 32.4 0 0 0-48.5-33 48.6 48.6 0 0 0-88.6 37.1h-1.5A32.4 32.4 0 0 0 .5 93.1Z"
         />
-      </linearGradient>
-      <linearGradient
-        id="overcast-night_svg__b"
-        x1={40.76}
-        x2={50.83}
-        y1={23}
-        y2={40.46}
-        gradientUnits="userSpaceOnUse"
+      </symbol>
+      <symbol id="overcast-night_svg__e" viewBox="0 0 350 222">
+        <path
+          fill="url(#overcast-night_svg__c)"
+          stroke="#e6effc"
+          strokeMiterlimit={10}
+          strokeWidth={6}
+          d="m291 107-2.5.1A83.9 83.9 0 0 0 135.6 43 56 56 0 0 0 51 91a56.6 56.6 0 0 0 .8 9A60 60 0 0 0 63 219l4-.2v.2h224a56 56 0 0 0 0-112Z"
+        />
+      </symbol>
+      <symbol
+        id="overcast-night_svg__g"
+        overflow="visible"
+        viewBox="0 0 398 222"
       >
-        <stop offset={0} stopColor="#9ca3af" />
-        <stop offset={0.45} stopColor="#9ca3af" />
-        <stop offset={1} stopColor="#6b7280" />
-      </linearGradient>
+        <use
+          xlinkHref="#overcast-night_svg__d"
+          width={200.3}
+          height={126.1}
+          transform="translate(198 27)"
+        >
+          <animateTransform
+            additive="sum"
+            attributeName="transform"
+            dur="6s"
+            repeatCount="indefinite"
+            type="translate"
+            values="-9 0; 9 0; -9 0"
+          />
+        </use>
+        <use xlinkHref="#overcast-night_svg__e" width={350} height={222}>
+          <animateTransform
+            additive="sum"
+            attributeName="transform"
+            dur="6s"
+            repeatCount="indefinite"
+            type="translate"
+            values="-18 0; 18 0; -18 0"
+          />
+        </use>
+      </symbol>
+      <symbol
+        id="overcast-night_svg__h"
+        overflow="visible"
+        viewBox="0 0 398.8 246"
+      >
+        <use xlinkHref="#overcast-night_svg__f" width={172} height={172} />
+        <use
+          xlinkHref="#overcast-night_svg__g"
+          width={398}
+          height={222}
+          transform="translate(.84 24)"
+        />
+      </symbol>
       <linearGradient
         id="overcast-night_svg__c"
-        x1={22.56}
-        x2={39.2}
-        y1={21.96}
-        y2={50.8}
+        x1={99.5}
+        x2={232.6}
+        y1={30.7}
+        y2={261.4}
         gradientUnits="userSpaceOnUse"
       >
         <stop offset={0} stopColor="#f3f7fe" />
-        <stop offset={0.45} stopColor="#f3f7fe" />
+        <stop offset={0.5} stopColor="#f3f7fe" />
         <stop offset={1} stopColor="#deeafb" />
       </linearGradient>
+      <linearGradient
+        id="overcast-night_svg__b"
+        x1={52.7}
+        x2={133.4}
+        y1={9.6}
+        y2={149.3}
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset={0} stopColor="#9ca3af" />
+        <stop offset={0.5} stopColor="#9ca3af" />
+        <stop offset={1} stopColor="#6b7280" />
+      </linearGradient>
+      <linearGradient
+        id="overcast-night_svg__a"
+        x1={34.7}
+        x2={119.2}
+        y1={18.6}
+        y2={165}
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset={0} stopColor="#86c3db" />
+        <stop offset={0.5} stopColor="#86c3db" />
+        <stop offset={1} stopColor="#5eafcf" />
+      </linearGradient>
     </defs>
-    <path
-      fill="url(#overcast-night_svg__a)"
-      stroke="#72b9d5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={0.5}
-      d="M29.33 26.68a10.61 10.61 0 0 1-10.68-10.54A10.5 10.5 0 0 1 19 13.5a10.54 10.54 0 1 0 11.5 13.11 11.48 11.48 0 0 1-1.17.07z"
-    >
-      <animateTransform
-        attributeName="transform"
-        dur="10s"
-        repeatCount="indefinite"
-        type="rotate"
-        values="-10 19.22 24.293; 10 19.22 24.293; -10 19.22 24.293"
-      />
-    </path>
-    <path
-      fill="url(#overcast-night_svg__b)"
-      stroke="#848b98"
-      strokeMiterlimit={10}
-      strokeWidth={0.5}
-      d="M34.23 33.45a4.05 4.05 0 0 0 4.05 4h16.51a4.34 4.34 0 0 0 .81-8.61 3.52 3.52 0 0 0 .06-.66 4.06 4.06 0 0 0-6.13-3.48 6.08 6.08 0 0 0-11.25 3.19 6.34 6.34 0 0 0 .18 1.46h-.18a4.05 4.05 0 0 0-4.05 4.1z"
-    >
-      <animateTransform
-        attributeName="transform"
-        dur="7s"
-        repeatCount="indefinite"
-        type="translate"
-        values="-2.1 0; 2.1 0; -2.1 0"
-      />
-    </path>
-    <path
-      fill="url(#overcast-night_svg__c)"
-      stroke="#e6effc"
-      strokeMiterlimit={10}
-      strokeWidth={0.5}
-      d="M46.5 31.5h-.32a10.49 10.49 0 0 0-19.11-8 7 7 0 0 0-10.57 6 7.21 7.21 0 0 0 .1 1.14A7.5 7.5 0 0 0 18 45.5a4.19 4.19 0 0 0 .5 0h28a7 7 0 0 0 0-14z"
-    >
-      <animateTransform
-        attributeName="transform"
-        dur="7s"
-        repeatCount="indefinite"
-        type="translate"
-        values="-3 0; 3 0; -3 0"
-      />
-    </path>
+    <use
+      xlinkHref="#overcast-night_svg__h"
+      width={398.8}
+      height={246}
+      transform="translate(68 121)"
+    />
   </svg>
 );
 export default SvgOvercastNight;

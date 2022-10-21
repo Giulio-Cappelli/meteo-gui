@@ -3,166 +3,148 @@ const SvgDustWind = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
-    viewBox="0 0 64 64"
+    viewBox="0 0 512 512"
     role="img"
     {...props}
   >
     <defs>
       <linearGradient
         id="dust-wind_svg__a"
-        x1={27.56}
-        x2={38.27}
-        y1={17.64}
-        y2={36.19}
+        x1={138.5}
+        x2={224.2}
+        y1={5.1}
+        y2={153.5}
         gradientUnits="userSpaceOnUse"
       >
         <stop offset={0} stopColor="#d4d7dd" />
-        <stop offset={0.45} stopColor="#d4d7dd" />
+        <stop offset={0.5} stopColor="#d4d7dd" />
         <stop offset={1} stopColor="#bec1c6" />
       </linearGradient>
       <linearGradient
-        id="dust-wind_svg__c"
-        x1={19.96}
-        x2={31.37}
-        y1={29.03}
-        y2={48.8}
         xlinkHref="#dust-wind_svg__a"
+        id="dust-wind_svg__c"
+        x1={77.7}
+        x2={169}
+        y1={96.2}
+        y2={254.4}
       />
       <linearGradient
         id="dust-wind_svg__b"
-        x1={24.13}
-        x2={27.87}
-        y1={36.25}
-        y2={42.75}
+        x1={90}
+        x2={102}
+        y1={185.6}
+        y2={206.4}
         gradientUnits="userSpaceOnUse"
       >
         <stop offset={0} stopColor="#fde68a" />
-        <stop offset={0.45} stopColor="#fde68a" />
+        <stop offset={0.5} stopColor="#fde68a" />
         <stop offset={1} stopColor="#fde171" />
       </linearGradient>
       <linearGradient
-        id="dust-wind_svg__d"
-        x1={14.13}
-        x2={17.87}
-        y1={21.25}
-        y2={27.75}
         xlinkHref="#dust-wind_svg__b"
+        id="dust-wind_svg__h"
+        x1={174}
+        x2={186}
+        y1={185.6}
+        y2={206.4}
       />
       <linearGradient
-        id="dust-wind_svg__e"
-        x1={30.13}
-        x2={33.87}
-        y1={28.75}
-        y2={35.25}
         xlinkHref="#dust-wind_svg__b"
+        id="dust-wind_svg__m"
+        x1={258}
+        x2={270}
+        y1={185.6}
+        y2={206.4}
       />
+      <linearGradient
+        xlinkHref="#dust-wind_svg__b"
+        id="dust-wind_svg__d"
+        x1={216}
+        x2={228}
+        y1={245.6}
+        y2={266.4}
+      />
+      <linearGradient
+        xlinkHref="#dust-wind_svg__b"
+        id="dust-wind_svg__i"
+        x1={300}
+        x2={312}
+        y1={245.6}
+        y2={266.4}
+      />
+      <linearGradient
+        xlinkHref="#dust-wind_svg__b"
+        id="dust-wind_svg__n"
+        x1={384}
+        x2={396}
+        y1={245.6}
+        y2={266.4}
+      />
+      <linearGradient
+        xlinkHref="#dust-wind_svg__b"
+        id="dust-wind_svg__e"
+        x1={166}
+        x2={178}
+        y1={305.6}
+        y2={326.4}
+      />
+      <linearGradient
+        xlinkHref="#dust-wind_svg__b"
+        id="dust-wind_svg__j"
+        x1={250}
+        x2={262}
+        y1={305.6}
+        y2={326.4}
+      />
+      <linearGradient
+        xlinkHref="#dust-wind_svg__b"
+        id="dust-wind_svg__o"
+        x1={334}
+        x2={346}
+        y1={305.6}
+        y2={326.4}
+      />
+      <symbol id="dust-wind_svg__r" viewBox="0 0 348 240">
+        <path
+          fill="none"
+          stroke="url(#dust-wind_svg__a)"
+          strokeDasharray={148}
+          strokeLinecap="round"
+          strokeMiterlimit={10}
+          strokeWidth={24}
+          d="M267.2 24.3A40 40 0 1 1 296 92H12"
+        >
+          <animate
+            attributeName="stroke-dashoffset"
+            dur="6s"
+            repeatCount="indefinite"
+            values="0; 2960"
+          />
+        </path>
+        <path
+          fill="none"
+          stroke="url(#dust-wind_svg__c)"
+          strokeDasharray={110}
+          strokeLinecap="round"
+          strokeMiterlimit={10}
+          strokeWidth={24}
+          d="M151.2 215.7A40 40 0 1 0 180 148H12"
+        >
+          <animate
+            attributeName="stroke-dashoffset"
+            dur="6s"
+            repeatCount="indefinite"
+            values="0; 1540"
+          />
+        </path>
+      </symbol>
     </defs>
-    <path
-      fill="none"
-      stroke="url(#dust-wind_svg__a)"
-      strokeDasharray="35 22"
-      strokeLinecap="round"
-      strokeMiterlimit={10}
-      strokeWidth={3}
-      d="M43.64 20a5 5 0 1 1 3.61 8.46h-35.5"
-    >
-      <animate
-        attributeName="stroke-dashoffset"
-        dur="2s"
-        repeatCount="indefinite"
-        values="-57; 57"
-      />
-    </path>
-    <path
-      fill="none"
-      stroke="url(#dust-wind_svg__c)"
-      strokeDasharray="24 15"
-      strokeLinecap="round"
-      strokeMiterlimit={10}
-      strokeWidth={3}
-      d="M29.14 44a5 5 0 1 0 3.61-8.46h-21"
-    >
-      <animate
-        attributeName="stroke-dashoffset"
-        begin="-1.5s"
-        dur="2s"
-        repeatCount="indefinite"
-        values="-39; 39"
-      />
-    </path>
-    <g>
-      <path
-        fill="none"
-        stroke="url(#dust-wind_svg__b)"
-        strokeLinecap="round"
-        strokeMiterlimit={10}
-        strokeWidth={3}
-        d="M21.5 39.5h9"
-      />
-      <animateTransform
-        attributeName="transform"
-        dur=".9s"
-        repeatCount="indefinite"
-        type="translate"
-        values="0 0; 15 0"
-      />
-      <animate
-        attributeName="opacity"
-        dur=".9s"
-        repeatCount="indefinite"
-        values="0; 1; 1; 1; 0"
-      />
-    </g>
-    <g>
-      <path
-        fill="none"
-        stroke="url(#dust-wind_svg__d)"
-        strokeLinecap="round"
-        strokeMiterlimit={10}
-        strokeWidth={3}
-        d="M11.5 24.5h9"
-      />
-      <animateTransform
-        attributeName="transform"
-        begin="-.3s"
-        dur=".9s"
-        repeatCount="indefinite"
-        type="translate"
-        values="-3 0; 18 0"
-      />
-      <animate
-        attributeName="opacity"
-        begin="-.3s"
-        dur=".9s"
-        repeatCount="indefinite"
-        values="0; 1; 1; 1; 0"
-      />
-    </g>
-    <g>
-      <path
-        fill="none"
-        stroke="url(#dust-wind_svg__e)"
-        strokeLinecap="round"
-        strokeMiterlimit={10}
-        strokeWidth={3}
-        d="M27.5 32h9"
-      />
-      <animateTransform
-        attributeName="transform"
-        begin="-.6s"
-        dur=".9s"
-        repeatCount="indefinite"
-        type="translate"
-        values="-6 0; 12 0"
-      />
-      <animate
-        attributeName="opacity"
-        begin="-.6s"
-        dur=".9s"
-        repeatCount="indefinite"
-        values="0; 1; 1; 1; 0"
-      />
-    </g>
+    <use
+      xlinkHref="#dust-wind_svg__r"
+      width={348}
+      height={240}
+      transform="translate(83 136)"
+    />
   </svg>
 );
 export default SvgDustWind;

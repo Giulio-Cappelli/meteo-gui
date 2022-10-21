@@ -2,33 +2,33 @@ import * as React from "react";
 const SvgUmbrella = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 64 64"
+    viewBox="0 0 512 512"
     role="img"
     {...props}
   >
     <defs>
       <linearGradient
         id="umbrella_svg__a"
-        x1={22.66}
-        x2={37.25}
-        y1={20.66}
-        y2={45.94}
+        x1={203.5}
+        x2={323.7}
+        y1={156.4}
+        y2={364.4}
         gradientUnits="userSpaceOnUse"
       >
         <stop offset={0} stopColor="#d4d7dd" />
-        <stop offset={0.45} stopColor="#d4d7dd" />
+        <stop offset={0.5} stopColor="#d4d7dd" />
         <stop offset={1} stopColor="#bec1c6" />
       </linearGradient>
       <linearGradient
         id="umbrella_svg__b"
-        x1={25.63}
-        x2={36.33}
-        y1={19.89}
-        y2={38.42}
+        x1={209.3}
+        x2={290.6}
+        y1={145.6}
+        y2={286.3}
         gradientUnits="userSpaceOnUse"
       >
         <stop offset={0} stopColor="#f87171" />
-        <stop offset={0.45} stopColor="#f87171" />
+        <stop offset={0.5} stopColor="#f87171" />
         <stop offset={1} stopColor="#dc2626" />
       </linearGradient>
     </defs>
@@ -37,31 +37,44 @@ const SvgUmbrella = (props: any) => (
       stroke="url(#umbrella_svg__a)"
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth={3}
-      d="M32 31.19v14M32 17v2m-6 26.5a3 3 0 0 0 6 0"
+      strokeWidth={12}
+      d="M304 355a24 24 0 0 1-48 0V133"
     />
     <g>
       <path
         fill="url(#umbrella_svg__b)"
         stroke="#ef4444"
         strokeMiterlimit={10}
-        strokeWidth={0.5}
-        d="M45.5 33.12c0-8.28-6-15-13.5-15s-13.5 6.72-13.5 15l1.43-.91a6 6 0 0 1 6.58.08l1.24.83.77-.54a6 6 0 0 1 7 0l.77.54 1.24-.83a6 6 0 0 1 6.58-.08z"
+        strokeWidth={4}
+        d="M376 237c0-53-53.7-96-120-96s-120 43-120 96l12.7-5.8c18-8.3 41-8 58.5.5l11 5.3 6.8-3.5a70.8 70.8 0 0 1 62 0l6.8 3.5 11-5.3a71.1 71.1 0 0 1 58.5-.5Z"
       />
       <path
         fill="none"
         stroke="#ef4444"
         strokeLinecap="round"
         strokeLinejoin="round"
-        strokeWidth={0.5}
-        d="M32 18.12s-5 6.63-4.25 15m8.5.01c.75-8.38-4.25-15-4.25-15"
+        strokeWidth={2}
+        d="M293.8 237c6.6-53.6-37.8-96-37.8-96s-44.4 42.4-37.8 96"
       />
       <animateTransform
+        additive="sum"
         attributeName="transform"
-        dur="2s"
+        calcMode="spline"
+        dur="6s"
+        keySplines=".42, 0, .58, 1; .42, 0, .58, 1"
+        repeatCount="indefinite"
+        type="scale"
+        values="1 1; .9 1.1; 1 1"
+      />
+      <animateTransform
+        additive="sum"
+        attributeName="transform"
+        calcMode="spline"
+        dur="6s"
+        keySplines=".42, 0, .58, 1; .42, 0, .58, 1"
         repeatCount="indefinite"
         type="translate"
-        values="0 0; 0 0.5; 0 0"
+        values="0 0; 29 -14; 0 0"
       />
     </g>
   </svg>

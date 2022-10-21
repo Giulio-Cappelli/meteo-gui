@@ -3,104 +3,124 @@ const SvgFogDay = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
-    viewBox="0 0 64 64"
+    viewBox="0 0 512 512"
     role="img"
     {...props}
   >
     <defs>
       <linearGradient
-        id="fog-day_svg__c"
-        x1={26.75}
-        x2={37.25}
-        y1={29.91}
-        y2={48.09}
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop offset={0} stopColor="#fbbf24" />
-        <stop offset={0.45} stopColor="#fbbf24" />
-        <stop offset={1} stopColor="#f59e0b" />
-      </linearGradient>
-      <linearGradient
         id="fog-day_svg__a"
-        x1={15.5}
-        x2={48.5}
-        y1={44}
-        y2={44}
+        x1={96}
+        x2={168}
+        y1={-2.4}
+        y2={122.3}
         gradientUnits="userSpaceOnUse"
       >
         <stop offset={0} stopColor="#d4d7dd" />
-        <stop offset={0.45} stopColor="#d4d7dd" />
+        <stop offset={0.5} stopColor="#d4d7dd" />
         <stop offset={1} stopColor="#bec1c6" />
       </linearGradient>
       <linearGradient
-        id="fog-day_svg__d"
-        y1={51}
-        y2={51}
         xlinkHref="#fog-day_svg__a"
+        id="fog-day_svg__c"
+        x2={168}
+        y1={-50.4}
+        y2={74.3}
       />
-      <clipPath id="fog-day_svg__b">
-        <path fill="none" d="M0 7.5h64v32H0z" />
+      <linearGradient
+        id="fog-day_svg__b"
+        x1={150}
+        x2={234}
+        y1={119.2}
+        y2={264.8}
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset={0} stopColor="#fbbf24" />
+        <stop offset={0.5} stopColor="#fbbf24" />
+        <stop offset={1} stopColor="#f59e0b" />
+      </linearGradient>
+      <symbol id="fog-day_svg__e" viewBox="0 0 384 384">
+        <circle
+          cx={192}
+          cy={192}
+          r={84}
+          fill="url(#fog-day_svg__b)"
+          stroke="#f8af18"
+          strokeMiterlimit={10}
+          strokeWidth={6}
+        />
+        <path
+          fill="none"
+          stroke="#fbbf24"
+          strokeLinecap="round"
+          strokeMiterlimit={10}
+          strokeWidth={24}
+          d="M192 61.7V12m0 360v-49.7m92.2-222.5 35-35M64.8 319.2l35.1-35.1m0-184.4-35-35m254.5 254.5-35.1-35.1M61.7 192H12m360 0h-49.7"
+        >
+          <animateTransform
+            additive="sum"
+            attributeName="transform"
+            dur="6s"
+            repeatCount="indefinite"
+            type="rotate"
+            values="0 192 192; 45 192 192"
+          />
+        </path>
+      </symbol>
+      <symbol id="fog-day_svg__f" overflow="visible" viewBox="0 0 264 72">
+        <path
+          fill="none"
+          stroke="url(#fog-day_svg__a)"
+          strokeLinecap="round"
+          strokeMiterlimit={10}
+          strokeWidth={24}
+          d="M12 60h240"
+        >
+          <animateTransform
+            additive="sum"
+            attributeName="transform"
+            dur="6s"
+            repeatCount="indefinite"
+            type="translate"
+            values="-24 0; 24 0; -24 0"
+          />
+        </path>
+        <path
+          fill="none"
+          stroke="url(#fog-day_svg__c)"
+          strokeLinecap="round"
+          strokeMiterlimit={10}
+          strokeWidth={24}
+          d="M12 12h240"
+        >
+          <animateTransform
+            additive="sum"
+            attributeName="transform"
+            dur="6s"
+            repeatCount="indefinite"
+            type="translate"
+            values="24 0; -24 0; 24 0"
+          />
+        </path>
+      </symbol>
+      <clipPath id="fog-day_svg__d">
+        <path fill="none" d="M0 0h512v306H0z" />
       </clipPath>
     </defs>
-    <g strokeMiterlimit={10} clipPath="url(#fog-day_svg__b)">
-      <circle
-        cx={32}
-        cy={39}
-        r={10.5}
-        fill="url(#fog-day_svg__c)"
-        stroke="#f8af18"
-        strokeWidth={0.5}
+    <g clipPath="url(#fog-day_svg__d)">
+      <use
+        xlinkHref="#fog-day_svg__e"
+        width={384}
+        height={384}
+        transform="translate(64 100)"
       />
-      <path
-        fill="none"
-        stroke="#fbbf24"
-        strokeLinecap="round"
-        strokeWidth={3}
-        d="M32 22.71V16.5m0 45v-6.21m11.52-27.81 4.39-4.39M16.09 54.91l4.39-4.39m0-23-4.39-4.39m31.82 31.78-4.39-4.39M15.71 39H9.5m45 0h-6.21"
-      >
-        <animateTransform
-          attributeName="transform"
-          dur="45s"
-          repeatCount="indefinite"
-          type="rotate"
-          values="0 32 39; 360 32 39"
-        />
-      </path>
     </g>
-    <path
-      fill="none"
-      stroke="url(#fog-day_svg__a)"
-      strokeLinecap="round"
-      strokeMiterlimit={10}
-      strokeWidth={3}
-      d="M17 44h30"
-    >
-      <animateTransform
-        attributeName="transform"
-        begin="0s"
-        dur="5s"
-        repeatCount="indefinite"
-        type="translate"
-        values="-4 0; 4 0; -4 0"
-      />
-    </path>
-    <path
-      fill="none"
-      stroke="url(#fog-day_svg__d)"
-      strokeLinecap="round"
-      strokeMiterlimit={10}
-      strokeWidth={3}
-      d="M17 51h30"
-    >
-      <animateTransform
-        attributeName="transform"
-        begin="-4s"
-        dur="5s"
-        repeatCount="indefinite"
-        type="translate"
-        values="-4 0; 4 0; -4 0"
-      />
-    </path>
+    <use
+      xlinkHref="#fog-day_svg__f"
+      width={264}
+      height={72}
+      transform="translate(124 336)"
+    />
   </svg>
 );
 export default SvgFogDay;

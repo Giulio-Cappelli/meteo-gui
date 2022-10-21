@@ -3,174 +3,192 @@ const SvgHazeDay = (props: any) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
-    viewBox="0 0 64 64"
+    viewBox="0 0 512 512"
     role="img"
     {...props}
   >
     <defs>
       <linearGradient
-        id="haze-day_svg__c"
-        x1={26.75}
-        x2={37.25}
-        y1={29.91}
-        y2={48.09}
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop offset={0} stopColor="#fbbf24" />
-        <stop offset={0.45} stopColor="#fbbf24" />
-        <stop offset={1} stopColor="#f59e0b" />
-      </linearGradient>
-      <linearGradient
         id="haze-day_svg__a"
-        x1={17.94}
-        x2={26.94}
-        y1={41.73}
-        y2={57.32}
+        x1={17.3}
+        x2={89.3}
+        y1={43.1}
+        y2={167.8}
         gradientUnits="userSpaceOnUse"
       >
         <stop offset={0} stopColor="#d4d7dd" />
-        <stop offset={0.45} stopColor="#d4d7dd" />
+        <stop offset={0.5} stopColor="#d4d7dd" />
         <stop offset={1} stopColor="#bec1c6" />
       </linearGradient>
       <linearGradient
+        xlinkHref="#haze-day_svg__a"
+        id="haze-day_svg__c"
+        x1={107.3}
+        x2={179.3}
+        y1={-8.8}
+        y2={115.9}
+      />
+      <linearGradient
+        xlinkHref="#haze-day_svg__a"
         id="haze-day_svg__d"
-        x1={28.81}
-        x2={37.81}
-        y1={35.45}
-        y2={51.04}
-        xlinkHref="#haze-day_svg__a"
+        x1={174.8}
+        x2={246.8}
+        y1={-47.8}
+        y2={76.9}
       />
       <linearGradient
+        xlinkHref="#haze-day_svg__a"
         id="haze-day_svg__e"
-        x1={37.06}
-        x2={46.06}
-        y1={30.68}
-        y2={46.27}
-        xlinkHref="#haze-day_svg__a"
+        x2={89.3}
+        y1={-4.9}
+        y2={119.8}
       />
       <linearGradient
+        xlinkHref="#haze-day_svg__a"
         id="haze-day_svg__f"
-        x1={17.94}
-        x2={26.94}
-        y1={48.73}
-        y2={64.32}
-        xlinkHref="#haze-day_svg__a"
+        x1={107.3}
+        x2={179.3}
+        y1={-56.9}
+        y2={67.9}
       />
       <linearGradient
+        xlinkHref="#haze-day_svg__a"
         id="haze-day_svg__g"
-        x1={28.81}
-        x2={37.81}
-        y1={42.45}
-        y2={58.04}
-        xlinkHref="#haze-day_svg__a"
+        x1={174.8}
+        x2={246.8}
+        y1={-95.8}
+        y2={28.9}
       />
       <linearGradient
-        id="haze-day_svg__h"
-        x1={37.06}
-        x2={46.06}
-        y1={37.68}
-        y2={53.27}
-        xlinkHref="#haze-day_svg__a"
-      />
-      <clipPath id="haze-day_svg__b">
-        <path fill="none" d="M0 7.5h64v32H0z" />
+        id="haze-day_svg__b"
+        x1={150}
+        x2={234}
+        y1={119.2}
+        y2={264.8}
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset={0} stopColor="#fbbf24" />
+        <stop offset={0.5} stopColor="#fbbf24" />
+        <stop offset={1} stopColor="#f59e0b" />
+      </linearGradient>
+      <symbol id="haze-day_svg__i" viewBox="0 0 384 384">
+        <circle
+          cx={192}
+          cy={192}
+          r={84}
+          fill="url(#haze-day_svg__b)"
+          stroke="#f8af18"
+          strokeMiterlimit={10}
+          strokeWidth={6}
+        />
+        <path
+          fill="none"
+          stroke="#fbbf24"
+          strokeLinecap="round"
+          strokeMiterlimit={10}
+          strokeWidth={24}
+          d="M192 61.7V12m0 360v-49.7m92.2-222.5 35-35M64.8 319.2l35.1-35.1m0-184.4-35-35m254.5 254.5-35.1-35.1M61.7 192H12m360 0h-49.7"
+        >
+          <animateTransform
+            additive="sum"
+            attributeName="transform"
+            dur="6s"
+            repeatCount="indefinite"
+            type="rotate"
+            values="0 192 192; 45 192 192"
+          />
+        </path>
+      </symbol>
+      <symbol id="haze-day_svg__j" overflow="visible" viewBox="0 0 264 72">
+        <g>
+          <path
+            fill="none"
+            stroke="url(#haze-day_svg__a)"
+            strokeLinecap="round"
+            strokeMiterlimit={10}
+            strokeWidth={24}
+            d="M12 60h30"
+          />
+          <path
+            fill="none"
+            stroke="url(#haze-day_svg__c)"
+            strokeDasharray="60 60"
+            strokeLinecap="round"
+            strokeMiterlimit={10}
+            strokeWidth={24}
+            d="M102 60h90"
+          />
+          <path
+            fill="none"
+            stroke="url(#haze-day_svg__d)"
+            strokeLinecap="round"
+            strokeMiterlimit={10}
+            strokeWidth={24}
+            d="M222 60h30"
+          />
+          <animateTransform
+            additive="sum"
+            attributeName="transform"
+            dur="6s"
+            repeatCount="indefinite"
+            type="translate"
+            values="-24 0; 24 0; -24 0"
+          />
+        </g>
+        <g>
+          <path
+            fill="none"
+            stroke="url(#haze-day_svg__e)"
+            strokeLinecap="round"
+            strokeMiterlimit={10}
+            strokeWidth={24}
+            d="M12 12h30"
+          />
+          <path
+            fill="none"
+            stroke="url(#haze-day_svg__f)"
+            strokeDasharray="60 60"
+            strokeLinecap="round"
+            strokeMiterlimit={10}
+            strokeWidth={24}
+            d="M102 12h90"
+          />
+          <path
+            fill="none"
+            stroke="url(#haze-day_svg__g)"
+            strokeLinecap="round"
+            strokeMiterlimit={10}
+            strokeWidth={24}
+            d="M222 12h30"
+          />
+          <animateTransform
+            additive="sum"
+            attributeName="transform"
+            dur="6s"
+            repeatCount="indefinite"
+            type="translate"
+            values="24 0; -24 0; 24 0"
+          />
+        </g>
+      </symbol>
+      <clipPath id="haze-day_svg__h">
+        <path fill="none" d="M0 0h512v306H0z" />
       </clipPath>
     </defs>
-    <g strokeMiterlimit={10} clipPath="url(#haze-day_svg__b)">
-      <circle
-        cx={32}
-        cy={39}
-        r={10.5}
-        fill="url(#haze-day_svg__c)"
-        stroke="#f8af18"
-        strokeWidth={0.5}
-      />
-      <path
-        fill="none"
-        stroke="#fbbf24"
-        strokeLinecap="round"
-        strokeWidth={3}
-        d="M32 22.71V16.5m0 45v-6.21m11.52-27.81 4.39-4.39M16.09 54.91l4.39-4.39m0-23-4.39-4.39m31.82 31.78-4.39-4.39M15.71 39H9.5m45 0h-6.21"
-      >
-        <animateTransform
-          attributeName="transform"
-          dur="45s"
-          repeatCount="indefinite"
-          type="rotate"
-          values="0 32 39; 360 32 39"
-        />
-      </path>
-    </g>
-    <g>
-      <path
-        fill="none"
-        stroke="url(#haze-day_svg__a)"
-        strokeLinecap="round"
-        strokeMiterlimit={10}
-        strokeWidth={3}
-        d="M17 44h4.5"
-      />
-      <path
-        fill="none"
-        stroke="url(#haze-day_svg__d)"
-        strokeDasharray="7 7"
-        strokeLinecap="round"
-        strokeMiterlimit={10}
-        strokeWidth={3}
-        d="M28.5 44H39"
-      />
-      <path
-        fill="none"
-        stroke="url(#haze-day_svg__e)"
-        strokeLinecap="round"
-        strokeMiterlimit={10}
-        strokeWidth={3}
-        d="M42.5 44H47"
-      />
-      <animateTransform
-        attributeName="transform"
-        begin="0s"
-        dur="5s"
-        repeatCount="indefinite"
-        type="translate"
-        values="-3 0; 3 0; -3 0"
+    <g clipPath="url(#haze-day_svg__h)">
+      <use
+        xlinkHref="#haze-day_svg__i"
+        width={384}
+        height={384}
+        transform="translate(64 100)"
       />
     </g>
-    <g>
-      <path
-        fill="none"
-        stroke="url(#haze-day_svg__f)"
-        strokeLinecap="round"
-        strokeMiterlimit={10}
-        strokeWidth={3}
-        d="M17 51h4.5"
-      />
-      <path
-        fill="none"
-        stroke="url(#haze-day_svg__g)"
-        strokeDasharray="7 7"
-        strokeLinecap="round"
-        strokeMiterlimit={10}
-        strokeWidth={3}
-        d="M28.5 51H39"
-      />
-      <path
-        fill="none"
-        stroke="url(#haze-day_svg__h)"
-        strokeLinecap="round"
-        strokeMiterlimit={10}
-        strokeWidth={3}
-        d="M42.5 51H47"
-      />
-      <animateTransform
-        attributeName="transform"
-        begin="-4s"
-        dur="5s"
-        repeatCount="indefinite"
-        type="translate"
-        values="-3 0; 3 0; -3 0"
-      />
-    </g>
+    <use
+      xlinkHref="#haze-day_svg__j"
+      width={264}
+      height={72}
+      transform="translate(124 336)"
+    />
   </svg>
 );
 export default SvgHazeDay;
