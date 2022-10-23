@@ -64,7 +64,7 @@ const App = () => {
               />
             </MediaQuery>
 
-            <Text>Application header</Text>
+            <Text>MeteoApp</Text>
           </div>
         </Header>
       }
