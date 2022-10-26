@@ -173,6 +173,84 @@ const SvgOvercastDayDrizzle = (props: any) => (
       height={258}
       transform="translate(56 109)"
     />
+    <path
+      fill="url(#d)"
+      stroke="#0a5ad4"
+      stroke-miterlimit="10"
+      d="M200 376a8 8 0 01-8-8v-12a8 8 0 0116 0v12a8 8 0 01-8 8Z"
+      opacity="0"
+    >
+      <animateTransform
+        id="x1"
+        additive="sum"
+        attributeName="transform"
+        begin="0s; x1.end+1s"
+        dur="1s"
+        keyTimes="0; .25; 1"
+        type="translate"
+        values="0 -32; 0 -32; 0 120;"
+      />
+      <animate
+        id="y1"
+        attributeName="opacity"
+        begin="0s; y1.end+1s"
+        dur="1s"
+        keyTimes="0; .25; 1"
+        values="0; 1; 0"
+      />
+    </path>
+    <path
+      fill="url(#e)"
+      stroke="#0a5ad4"
+      stroke-miterlimit="10"
+      d="M256 376a8 8 0 01-8-8v-12a8 8 0 0116 0v12a8 8 0 01-8 8Z"
+      opacity="0"
+    >
+      <animateTransform
+        id="x2"
+        additive="sum"
+        attributeName="transform"
+        begin="1.34s; x2.end+1s"
+        dur="1s"
+        keyTimes="0; .25; 1"
+        type="translate"
+        values="0 -32; 0 -32; 0 120;"
+      />
+      <animate
+        id="y2"
+        attributeName="opacity"
+        begin="1.34s; y2.end+1s"
+        dur="1s"
+        keyTimes="0; .25; 1"
+        values="0; 1; 0"
+      />
+    </path>
+    <path
+      fill="url(#f)"
+      stroke="#0a5ad4"
+      stroke-miterlimit="10"
+      d="M312 376a8 8 0 01-8-8v-12a8 8 0 0116 0v12a8 8 0 01-8 8Z"
+      opacity="0"
+    >
+      <animateTransform
+        id="x3"
+        additive="sum"
+        attributeName="transform"
+        begin=".67s; x3.end+1s"
+        dur="1s"
+        keyTimes="0; .25; 1"
+        type="translate"
+        values="0 -32; 0 -32; 0 120;"
+      />
+      <animate
+        id="y3"
+        attributeName="opacity"
+        begin=".67s; y3.end+1s"
+        dur="1s"
+        keyTimes="0; .25; 1"
+        values="0; 1; 0"
+      />
+    </path>
   </svg>
 );
 export default SvgOvercastDayDrizzle;
