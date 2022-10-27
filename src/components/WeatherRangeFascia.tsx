@@ -1,10 +1,10 @@
-import { Text, Box, Center, HoverCard } from "@mantine/core";
+import { Text, Box, Center } from "@mantine/core";
 import capitalizeFirstLetter from "./functions/capitalizeFirstLetter";
 import { Fascia } from "./types";
 import IconSelector from "./weather-icons/IconSelector";
 
-const WeatherRangeFascia = (props: { fascia: Fascia }) => {
-  const { fascia } = props;
+const WeatherRangeFascia = (props: { fascia: Fascia; height: number }) => {
+  const { fascia, height } = props;
   return (
     <tr>
       <td>
@@ -13,7 +13,7 @@ const WeatherRangeFascia = (props: { fascia: Fascia }) => {
             backgroundColor: theme.colors.blue[8],
             color: "#fff",
             textAlign: "center",
-            padding: theme.spacing.xl,
+            padding: theme.spacing.xs,
             borderRadius: theme.radius.md,
           })}
         >
@@ -21,12 +21,26 @@ const WeatherRangeFascia = (props: { fascia: Fascia }) => {
         </Box>
       </td>
       <td>
-        <IconSelector descIcona={fascia.descIcona} icona={fascia.icona} />
+        <Center>
+          <IconSelector
+            descIcona={fascia.descIcona}
+            icona={fascia.icona}
+            height={height}
+          />
+        </Center>
       </td>
-      <td>{fascia.descPrecProb}</td>
-      <td>{fascia.descPrecInten}</td>
-      <td>{fascia.descVentoDirValle}</td>
-      <td>{fascia.zeroTermico}</td>
+      <td>
+        <Center>{fascia.descPrecProb}</Center>
+      </td>
+      <td>
+        <Center>{fascia.descPrecInten}</Center>
+      </td>
+      <td>
+        <Center>{fascia.descVentoDirValle}</Center>
+      </td>
+      <td>
+        <Center>{fascia.zeroTermico} m</Center>
+      </td>
     </tr>
   );
 };

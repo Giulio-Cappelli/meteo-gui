@@ -8,6 +8,7 @@ const WeatherRangeTableBody = (props: { fasce: Fascia[] }) => {
       {fasce.map((fascia) => {
         return (
           <WeatherRange
+            height={50}
             fascia={fascia}
             key={fascia.idPrevisioneFascia.toString()}
           />

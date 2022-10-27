@@ -9,6 +9,8 @@ import {
   MediaQuery,
   Burger,
   useMantineTheme,
+  Grid,
+  Space,
 } from "@mantine/core";
 import Displayer from "./Displayer";
 
@@ -46,11 +48,52 @@ const App = () => {
       }*/
       footer={
         <Footer height={60} p="md">
-          Application footer
+          <Grid
+            justify={"space-between"}
+            align={"center"}
+            columns={21}
+            gutter={"xs"}
+          >
+            <Grid.Col span={"content"}>
+              <Text
+                component="a"
+                target={"_blank"}
+                href="https://www.giuliocappelli.me"
+              >
+                Made by Giulio Cappelli
+              </Text>
+            </Grid.Col>
+            <Grid.Col
+              span={"content"}
+              offset={12}
+              style={{ textAlign: "right" }}
+            >
+              <Text
+                component="a"
+                href="https://www.meteotrentino.it\"
+                target="_blank"
+              >
+                Dati pubblicati da Provincia Autonoma di Trento - Meteotrentino
+              </Text>
+              <Space w={"md"} />
+            </Grid.Col>
+            <Grid.Col span={"content"}>
+              <Text
+                component="a"
+                rel="license"
+                href="https://creativecommons.org/licenses/by/3.0/it/"
+              >
+                <img
+                  alt="Licenza Creative Commons"
+                  src="https://licensebuttons.net/l/by/3.0/it/80x15.png"
+                />
+              </Text>
+            </Grid.Col>
+          </Grid>
         </Footer>
       }
       header={
-        <Header height={70} p="md">
+        <Header height={60} p="md">
           <div
             style={{ display: "flex", alignItems: "center", height: "100%" }}
           >

@@ -1,9 +1,10 @@
+/*
 import SvgCloudy from "./icons/cloudy";
 import SvgOvercastDayDrizzle from "./icons/overcast-day-drizzle";
 import SvgOvercastDrizzle from "./icons/overcast-drizzle";
 import SvgPartlyCloudyDay from "./icons/partly-cloudy-day";
 import SvgPartlyCloudyDayDrizzle from "./icons/partly-cloudy-day-drizzle";
-
+*/
 const IconSelector = (props: {
   descIcona: string;
   icona: string;
@@ -23,7 +24,7 @@ const IconSelector = (props: {
     // case "Coperto con piogge deboli":
     //   return <SvgOvercastDrizzle height={height} />;
     default:
-      return <img src={icona} title={descIcona} alt={icona} />;
+      return <img src={icona} title={descIcona} alt={icona} height={height} />;
   }
 };
 

@@ -30,7 +30,6 @@ const MeteoCard = (props: { giorno: Giorno; setGiorno: any }) => {
       })}
       key={giorno.giorno}
       onClick={() => {
-        console.log();
         setGiorno(giorno);
       }}
     >

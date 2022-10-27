@@ -7,9 +7,10 @@ import WeatherRangeTemperature from "./WeatherRangeTemperature";
 const MeteoInfoCard = (props: { giorno: Giorno | undefined }) => {
   const { giorno } = props;
 
-  console.log("MeteoInfoCard:", giorno);
+  //Log per controllare se esiste l'InfoCard
+  //console.log("MeteoInfoCard:", giorno);
 
-  if (giorno != undefined) {
+  if (giorno !== undefined) {
     const { giorno_txt, giorno_num, mese_num } = convertDate(giorno);
 
     return (

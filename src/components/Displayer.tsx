@@ -2,7 +2,8 @@ import { Center, Space } from "@mantine/core";
 import { useState } from "react";
 import useSWR from "swr";
 import MeteoInfoCard from "./MeteoInfoCard";
-import MeteoList from "./MeteoList";
+import MeteoCardList from "./MeteoCardList";
+import Place from "./Place";
 import { Giorno, Risposta } from "./types";
 
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
@@ -26,7 +27,9 @@ const Displayer = () => {
   return (
     <Center>
       <div style={{ width: "75%" }}>
-        <MeteoList
+        <Place localita={data.previsione[0].localita} />
+        <Space h={"xs"} />
+        <MeteoCardList
           giorni={data.previsione[0].giorni}
           key={data.idPrevisione}
           setGiorno={setGiorno}
