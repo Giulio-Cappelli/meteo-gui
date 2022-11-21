@@ -1,8 +1,8 @@
 import { Center, Space } from "@mantine/core";
 import { useState } from "react";
 import useSWR from "swr";
-import MeteoInfoCard from "./MeteoInfoCard";
 import MeteoCardList from "./MeteoCardList";
+import MeteoInfoCard from "./MeteoInfoCard";
 import Place from "./Place";
 import { Giorno, Risposta } from "./types";
 

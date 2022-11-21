@@ -1,17 +1,17 @@
-import { useState } from "react";
 import {
   AppShell,
-  Navbar,
-  Header,
-  Footer,
   Aside,
-  Text,
-  MediaQuery,
   Burger,
-  useMantineTheme,
+  Footer,
   Grid,
+  Header,
+  MediaQuery,
+  Navbar,
   Space,
+  Text,
+  useMantineTheme,
 } from "@mantine/core";
+import { useState } from "react";
 import Displayer from "./Displayer";
 
 const App = () => {

@@ -1,4 +1,4 @@
-import { Text, Table } from "@mantine/core";
+import { Table, Text } from "@mantine/core";
 import TemperatureTable from "./TemperatureTable";
 
 const WeatherRangeTemperature = (props: { tMin: number; tMax: number }) => {

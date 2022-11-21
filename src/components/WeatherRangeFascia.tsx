@@ -1,4 +1,4 @@
-import { Text, Box, Center } from "@mantine/core";
+import { Box, Center, Text } from "@mantine/core";
 import capitalizeFirstLetter from "./functions/capitalizeFirstLetter";
 import { Fascia } from "./types";
 import IconSelector from "./weather-icons/IconSelector";

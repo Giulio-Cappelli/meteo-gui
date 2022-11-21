@@ -1,4 +1,4 @@
-import { Box, Space, Divider, Title } from "@mantine/core";
+import { Box, Divider, Space, Title } from "@mantine/core";
 import convertDate from "./functions/convertDate";
 import TemperatureTable from "./TemperatureTable";
 import { Giorno } from "./types";
