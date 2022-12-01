@@ -1,5 +1,5 @@
 import * as React from "react";
-const Sleet = (props: any) => (
+const Lightsleet = (props: any) => (
   <svg
     viewBox="0 0 100 100"
     xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +33,7 @@ const Sleet = (props: any) => (
     <symbol id="prefix__d">
       <use
         xlinkHref="#prefix__a"
-        fill="#b2b2b2"
+        fill="#ccc"
         width={100}
         height={100}
         transform="translate(3 18)"
@@ -42,22 +42,16 @@ const Sleet = (props: any) => (
         xlinkHref="#prefix__b"
         width={100}
         height={100}
-        transform="translate(30 79)"
+        transform="translate(29 88)"
       />
       <use
         xlinkHref="#prefix__c"
         width={100}
         height={100}
-        transform="translate(46 86)"
-      />
-      <use
-        xlinkHref="#prefix__c"
-        width={100}
-        height={100}
-        transform="translate(60 80)"
+        transform="translate(60 79)"
       />
     </symbol>
     <use xlinkHref="#prefix__d" width={100} height={100} />
   </svg>
 );
-export default Sleet;
+export default Lightsleet;

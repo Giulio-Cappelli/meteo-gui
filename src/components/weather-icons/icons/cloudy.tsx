@@ -1,50 +1,33 @@
 import * as React from "react";
-const SvgCloudy = (props: any) => (
+const Cloudy = (props: any) => (
   <svg
+    viewBox="0 0 100 100"
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
-    viewBox="0 0 512 512"
-    role="img"
+    width={80}
+    height={80}
     {...props}
   >
-    <defs>
-      <linearGradient
-        id="cloudy_svg__a"
-        x1={99.5}
-        x2={232.6}
-        y1={30.7}
-        y2={261.4}
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop offset={0} stopColor="#f3f7fe" />
-        <stop offset={0.5} stopColor="#f3f7fe" />
-        <stop offset={1} stopColor="#deeafb" />
-      </linearGradient>
-      <symbol id="cloudy_svg__b" viewBox="0 0 350 222">
-        <path
-          fill="url(#cloudy_svg__a)"
-          stroke="#e6effc"
-          strokeMiterlimit={10}
-          strokeWidth={6}
-          d="m291 107-2.5.1A83.9 83.9 0 0 0 135.6 43 56 56 0 0 0 51 91a56.6 56.6 0 0 0 .8 9A60 60 0 0 0 63 219l4-.2v.2h224a56 56 0 0 0 0-112Z"
-        />
-      </symbol>
-    </defs>
-    <use
-      xlinkHref="#cloudy_svg__b"
-      width={350}
-      height={222}
-      transform="translate(81 145)"
-    >
-      <animateTransform
-        additive="sum"
-        attributeName="transform"
-        dur="6s"
-        repeatCount="indefinite"
-        type="translate"
-        values="-18 0; 18 0; -18 0"
+    <symbol id="prefix__a">
+      <path d="M55.7 5a23.94 23.94 0 0 0-21.33 13.05 9.9 9.9 0 0 0-12.78 5.56 15 15 0 0 0-1.71-.1A14.81 14.81 0 0 0 9.2 28 14.63 14.63 0 0 0 5 38.17v.21a14.83 14.83 0 0 0 14.88 14.68h55.71a14.3 14.3 0 0 0 3.67-28.14A23.93 23.93 0 0 0 55.7 5Z" />
+      <image
+        x={5}
+        y={14}
+        width={85}
+        height={43}
+        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFYAAAAkCAMAAAAkYj0PAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAVUExURSgoKExpcaCgoFBQUG5ublBQUISEhI1fsT0AAAAHdFJOUxsACBsPFRpGXuFgAAABWElEQVRIx7XV25bDIAgF0BMu/v8nF/E+iWlqHNKVN3cpIMXxL4GFM3SQfTazkUyxk63oLYwlVSy2silXkS/wUrZS2a3ZCn1zsdSw7UUYijuHsTa1IvfwWrbSXLkc4N9r27JViwmM1UtWXA3hohQ41m6vl8FQZi7wu2z7KXPW4uRiZS+2AmdXN7DdQEQWQHYHlt6z0dXBBa2xeeVktiZc1jDoF5eGkI4d4MjKc7cNbZ3bqjocLLx5oPDYTaIftcfvAvcs2GFxVsJTOP1wO1jGdUSLaz/DWA1Tl45+Tkqul2ArcPzayGq8JafOUffP3TUp6JQs+Rptc6vtmtBkUw+dv0NzWG0PYf8O7Ym09+ITXyXOPZqEX95aFe3PKxRsL2XV3HR+ZALirPSF0ceHp6F51WBv1A22VaW2GHWzWvat8LOAPf4CrjrA+neNK7+PQBf/DmmLrId09/QDWyESBsibwBUAAAAASUVORK5CYII="
       />
-    </use>
+    </symbol>
+    <symbol id="prefix__b">
+      <use
+        xlinkHref="#prefix__a"
+        fill="#ddd"
+        width={100}
+        height={100}
+        transform="translate(3 18)"
+      />
+    </symbol>
+    <use xlinkHref="#prefix__b" width={100} height={100} />
   </svg>
 );
-export default SvgCloudy;
+export default Cloudy;

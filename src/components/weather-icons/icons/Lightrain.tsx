@@ -1,5 +1,5 @@
 import * as React from "react";
-const Sleet = (props: any) => (
+const Lightrain = (props: any) => (
   <svg
     viewBox="0 0 100 100"
     xmlns="http://www.w3.org/2000/svg"
@@ -8,16 +8,10 @@ const Sleet = (props: any) => (
     height={80}
     {...props}
   >
-    <symbol id="prefix__c">
+    <symbol id="prefix__b">
       <path
         fill="#0062bf"
         d="M2.5 13A2.5 2.5 0 0 1 .21 9.51l3.55-8a2.5 2.5 0 0 1 4.57 2l-3.55 8A2.5 2.5 0 0 1 2.5 13Z"
-      />
-    </symbol>
-    <symbol id="prefix__b">
-      <path
-        fill="#47c0e3"
-        d="M11.68 4.47H8.85L10.27 2A1.35 1.35 0 1 0 7.93.67L6.51 3.12 5.1.67A1.35 1.35 0 0 0 3.26.18 1.35 1.35 0 0 0 2.76 2l1.42 2.47H1.35a1.35 1.35 0 1 0 0 2.7h2.83L2.76 9.62a1.35 1.35 0 0 0 .49 1.84A1.39 1.39 0 0 0 5.1 11l1.41-2.48L7.93 11a1.35 1.35 0 1 0 2.34-1.35L8.85 7.17h2.83a1.35 1.35 0 1 0 0-2.7Z"
       />
     </symbol>
     <symbol id="prefix__a">
@@ -30,10 +24,10 @@ const Sleet = (props: any) => (
         xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFYAAAAkCAMAAAAkYj0PAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAVUExURSgoKExpcaCgoFBQUG5ublBQUISEhI1fsT0AAAAHdFJOUxsACBsPFRpGXuFgAAABWElEQVRIx7XV25bDIAgF0BMu/v8nF/E+iWlqHNKVN3cpIMXxL4GFM3SQfTazkUyxk63oLYwlVSy2silXkS/wUrZS2a3ZCn1zsdSw7UUYijuHsTa1IvfwWrbSXLkc4N9r27JViwmM1UtWXA3hohQ41m6vl8FQZi7wu2z7KXPW4uRiZS+2AmdXN7DdQEQWQHYHlt6z0dXBBa2xeeVktiZc1jDoF5eGkI4d4MjKc7cNbZ3bqjocLLx5oPDYTaIftcfvAvcs2GFxVsJTOP1wO1jGdUSLaz/DWA1Tl45+Tkqul2ArcPzayGq8JafOUffP3TUp6JQs+Rptc6vtmtBkUw+dv0NzWG0PYf8O7Ym09+ITXyXOPZqEX95aFe3PKxRsL2XV3HR+ZALirPSF0ceHp6F51WBv1A22VaW2GHWzWvat8LOAPf4CrjrA+neNK7+PQBf/DmmLrId09/QDWyESBsibwBUAAAAASUVORK5CYII="
       />
     </symbol>
-    <symbol id="prefix__d">
+    <symbol id="prefix__c">
       <use
         xlinkHref="#prefix__a"
-        fill="#b2b2b2"
+        fill="#ccc"
         width={100}
         height={100}
         transform="translate(3 18)"
@@ -42,22 +36,16 @@ const Sleet = (props: any) => (
         xlinkHref="#prefix__b"
         width={100}
         height={100}
-        transform="translate(30 79)"
+        transform="translate(32 87)"
       />
       <use
-        xlinkHref="#prefix__c"
+        xlinkHref="#prefix__b"
         width={100}
         height={100}
-        transform="translate(46 86)"
-      />
-      <use
-        xlinkHref="#prefix__c"
-        width={100}
-        height={100}
-        transform="translate(60 80)"
+        transform="translate(56 78)"
       />
     </symbol>
-    <use xlinkHref="#prefix__d" width={100} height={100} />
+    <use xlinkHref="#prefix__c" width={100} height={100} />
   </svg>
 );
-export default Sleet;
+export default Lightrain;

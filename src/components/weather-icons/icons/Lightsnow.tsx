@@ -1,5 +1,5 @@
 import * as React from "react";
-const Sleet = (props: any) => (
+const Lightsnow = (props: any) => (
   <svg
     viewBox="0 0 100 100"
     xmlns="http://www.w3.org/2000/svg"
@@ -8,12 +8,6 @@ const Sleet = (props: any) => (
     height={80}
     {...props}
   >
-    <symbol id="prefix__c">
-      <path
-        fill="#0062bf"
-        d="M2.5 13A2.5 2.5 0 0 1 .21 9.51l3.55-8a2.5 2.5 0 0 1 4.57 2l-3.55 8A2.5 2.5 0 0 1 2.5 13Z"
-      />
-    </symbol>
     <symbol id="prefix__b">
       <path
         fill="#47c0e3"
@@ -30,10 +24,10 @@ const Sleet = (props: any) => (
         xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFYAAAAkCAMAAAAkYj0PAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAVUExURSgoKExpcaCgoFBQUG5ublBQUISEhI1fsT0AAAAHdFJOUxsACBsPFRpGXuFgAAABWElEQVRIx7XV25bDIAgF0BMu/v8nF/E+iWlqHNKVN3cpIMXxL4GFM3SQfTazkUyxk63oLYwlVSy2silXkS/wUrZS2a3ZCn1zsdSw7UUYijuHsTa1IvfwWrbSXLkc4N9r27JViwmM1UtWXA3hohQ41m6vl8FQZi7wu2z7KXPW4uRiZS+2AmdXN7DdQEQWQHYHlt6z0dXBBa2xeeVktiZc1jDoF5eGkI4d4MjKc7cNbZ3bqjocLLx5oPDYTaIftcfvAvcs2GFxVsJTOP1wO1jGdUSLaz/DWA1Tl45+Tkqul2ArcPzayGq8JafOUffP3TUp6JQs+Rptc6vtmtBkUw+dv0NzWG0PYf8O7Ym09+ITXyXOPZqEX95aFe3PKxRsL2XV3HR+ZALirPSF0ceHp6F51WBv1A22VaW2GHWzWvat8LOAPf4CrjrA+neNK7+PQBf/DmmLrId09/QDWyESBsibwBUAAAAASUVORK5CYII="
       />
     </symbol>
-    <symbol id="prefix__d">
+    <symbol id="prefix__c">
       <use
         xlinkHref="#prefix__a"
-        fill="#b2b2b2"
+        fill="#ccc"
         width={100}
         height={100}
         transform="translate(3 18)"
@@ -42,22 +36,16 @@ const Sleet = (props: any) => (
         xlinkHref="#prefix__b"
         width={100}
         height={100}
-        transform="translate(30 79)"
+        transform="translate(29 88)"
       />
       <use
-        xlinkHref="#prefix__c"
+        xlinkHref="#prefix__b"
         width={100}
         height={100}
-        transform="translate(46 86)"
-      />
-      <use
-        xlinkHref="#prefix__c"
-        width={100}
-        height={100}
-        transform="translate(60 80)"
+        transform="translate(58 79)"
       />
     </symbol>
-    <use xlinkHref="#prefix__d" width={100} height={100} />
+    <use xlinkHref="#prefix__c" width={100} height={100} />
   </svg>
 );
-export default Sleet;
+export default Lightsnow;

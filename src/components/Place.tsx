@@ -1,4 +1,4 @@
-import { Box, Grid, Text, Title } from "@mantine/core";
+import { Box, Grid, Title } from "@mantine/core";
 
 const Place = (props: { localita: string }) => {
   const { localita } = props;

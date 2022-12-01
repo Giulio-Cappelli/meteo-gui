@@ -1,102 +1,44 @@
 import * as React from "react";
-const SvgFog = (props: any) => (
+const Fog = (props: any) => (
   <svg
+    viewBox="0 0 100 100"
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
-    viewBox="0 0 512 512"
-    role="img"
+    width={80}
+    height={80}
     {...props}
   >
-    <defs>
-      <linearGradient
-        id="fog_svg__b"
-        x1={99.5}
-        x2={232.6}
-        y1={30.7}
-        y2={261.4}
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop offset={0} stopColor="#f3f7fe" />
-        <stop offset={0.5} stopColor="#f3f7fe" />
-        <stop offset={1} stopColor="#deeafb" />
-      </linearGradient>
-      <linearGradient
-        id="fog_svg__a"
-        x1={96}
-        x2={168}
-        y1={-2.4}
-        y2={122.3}
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop offset={0} stopColor="#d4d7dd" />
-        <stop offset={0.5} stopColor="#d4d7dd" />
-        <stop offset={1} stopColor="#bec1c6" />
-      </linearGradient>
-      <linearGradient
-        xlinkHref="#fog_svg__a"
-        id="fog_svg__c"
-        x2={168}
-        y1={-50.4}
-        y2={74.3}
+    <symbol id="prefix__b">
+      <g fill="#999">
+        <path d="M88.7 3H14.3c-.7 0-1.3-.7-1.3-1.5S13.6 0 14.3 0h74.4c.7 0 1.3.7 1.3 1.5S89.4 3 88.7 3zM75.7 11H1.3C.6 11 0 10.3 0 9.5S.6 8 1.3 8h74.4c.7 0 1.3.7 1.3 1.5s-.6 1.5-1.3 1.5zM86.7 19H12.3c-.7 0-1.3-.7-1.3-1.5s.6-1.5 1.3-1.5h74.4c.7 0 1.3.7 1.3 1.5s-.6 1.5-1.3 1.5z" />
+      </g>
+    </symbol>
+    <symbol id="prefix__a">
+      <path d="M55.7 5a23.94 23.94 0 0 0-21.33 13.05 9.9 9.9 0 0 0-12.78 5.56 15 15 0 0 0-1.71-.1A14.81 14.81 0 0 0 9.2 28 14.63 14.63 0 0 0 5 38.17v.21a14.83 14.83 0 0 0 14.88 14.68h55.71a14.3 14.3 0 0 0 3.67-28.14A23.93 23.93 0 0 0 55.7 5Z" />
+      <image
+        x={5}
+        y={14}
+        width={85}
+        height={43}
+        xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFYAAAAkCAMAAAAkYj0PAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAVUExURSgoKExpcaCgoFBQUG5ublBQUISEhI1fsT0AAAAHdFJOUxsACBsPFRpGXuFgAAABWElEQVRIx7XV25bDIAgF0BMu/v8nF/E+iWlqHNKVN3cpIMXxL4GFM3SQfTazkUyxk63oLYwlVSy2silXkS/wUrZS2a3ZCn1zsdSw7UUYijuHsTa1IvfwWrbSXLkc4N9r27JViwmM1UtWXA3hohQ41m6vl8FQZi7wu2z7KXPW4uRiZS+2AmdXN7DdQEQWQHYHlt6z0dXBBa2xeeVktiZc1jDoF5eGkI4d4MjKc7cNbZ3bqjocLLx5oPDYTaIftcfvAvcs2GFxVsJTOP1wO1jGdUSLaz/DWA1Tl45+Tkqul2ArcPzayGq8JafOUffP3TUp6JQs+Rptc6vtmtBkUw+dv0NzWG0PYf8O7Ym09+ITXyXOPZqEX95aFe3PKxRsL2XV3HR+ZALirPSF0ceHp6F51WBv1A22VaW2GHWzWvat8LOAPf4CrjrA+neNK7+PQBf/DmmLrId09/QDWyESBsibwBUAAAAASUVORK5CYII="
       />
-      <symbol id="fog_svg__d" viewBox="0 0 350 222">
-        <path
-          fill="url(#fog_svg__b)"
-          stroke="#e6effc"
-          strokeMiterlimit={10}
-          strokeWidth={6}
-          d="m291 107-2.5.1A83.9 83.9 0 0 0 135.6 43 56 56 0 0 0 51 91a56.6 56.6 0 0 0 .8 9A60 60 0 0 0 63 219l4-.2v.2h224a56 56 0 0 0 0-112Z"
-        />
-      </symbol>
-      <symbol id="fog_svg__e" overflow="visible" viewBox="0 0 264 72">
-        <path
-          fill="none"
-          stroke="url(#fog_svg__a)"
-          strokeLinecap="round"
-          strokeMiterlimit={10}
-          strokeWidth={24}
-          d="M12 60h240"
-        >
-          <animateTransform
-            additive="sum"
-            attributeName="transform"
-            dur="6s"
-            repeatCount="indefinite"
-            type="translate"
-            values="-24 0; 24 0; -24 0"
-          />
-        </path>
-        <path
-          fill="none"
-          stroke="url(#fog_svg__c)"
-          strokeLinecap="round"
-          strokeMiterlimit={10}
-          strokeWidth={24}
-          d="M12 12h240"
-        >
-          <animateTransform
-            additive="sum"
-            attributeName="transform"
-            dur="6s"
-            repeatCount="indefinite"
-            type="translate"
-            values="24 0; -24 0; 24 0"
-          />
-        </path>
-      </symbol>
-    </defs>
-    <use
-      xlinkHref="#fog_svg__d"
-      width={350}
-      height={222}
-      transform="translate(81 145)"
-    />
-    <use
-      xlinkHref="#fog_svg__e"
-      width={264}
-      height={72}
-      transform="translate(124 402)"
-    />
+    </symbol>
+    <symbol id="prefix__c">
+      <use
+        xlinkHref="#prefix__a"
+        fill="#ddd"
+        width={100}
+        height={100}
+        transform="translate(3 18)"
+      />
+      <use
+        xlinkHref="#prefix__b"
+        width={100}
+        height={100}
+        transform="translate(0 76)"
+      />
+    </symbol>
+    <use xlinkHref="#prefix__c" width={100} height={100} />
   </svg>
 );
-export default SvgFog;
+export default Fog;

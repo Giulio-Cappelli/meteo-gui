@@ -1,5 +1,5 @@
 import * as React from "react";
-const Sleet = (props: any) => (
+const Sleetshowers_day = (props: any) => (
   <svg
     viewBox="0 0 100 100"
     xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +30,7 @@ const Sleet = (props: any) => (
         xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFYAAAAkCAMAAAAkYj0PAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAVUExURSgoKExpcaCgoFBQUG5ublBQUISEhI1fsT0AAAAHdFJOUxsACBsPFRpGXuFgAAABWElEQVRIx7XV25bDIAgF0BMu/v8nF/E+iWlqHNKVN3cpIMXxL4GFM3SQfTazkUyxk63oLYwlVSy2silXkS/wUrZS2a3ZCn1zsdSw7UUYijuHsTa1IvfwWrbSXLkc4N9r27JViwmM1UtWXA3hohQ41m6vl8FQZi7wu2z7KXPW4uRiZS+2AmdXN7DdQEQWQHYHlt6z0dXBBa2xeeVktiZc1jDoF5eGkI4d4MjKc7cNbZ3bqjocLLx5oPDYTaIftcfvAvcs2GFxVsJTOP1wO1jGdUSLaz/DWA1Tl45+Tkqul2ArcPzayGq8JafOUffP3TUp6JQs+Rptc6vtmtBkUw+dv0NzWG0PYf8O7Ym09+ITXyXOPZqEX95aFe3PKxRsL2XV3HR+ZALirPSF0ceHp6F51WBv1A22VaW2GHWzWvat8LOAPf4CrjrA+neNK7+PQBf/DmmLrId09/QDWyESBsibwBUAAAAASUVORK5CYII="
       />
     </symbol>
-    <symbol id="prefix__d">
+    <symbol id="prefix__h">
       <use
         xlinkHref="#prefix__a"
         fill="#b2b2b2"
@@ -57,7 +57,64 @@ const Sleet = (props: any) => (
         transform="translate(60 80)"
       />
     </symbol>
-    <use xlinkHref="#prefix__d" width={100} height={100} />
+    <symbol id="prefix__g">
+      <path
+        className="prefix__sun-glow"
+        fill="url(#prefix__d)"
+        d="M66.64 47.86 82 41l-15.36-6.88 9.84-13.66-16.72 1.76 1.7-16.75-13.6 9.89L41 0l-6.88 15.36-13.66-9.84 1.76 16.72-16.75-1.7 9.89 13.6L0 41l15.36 6.83-9.84 13.71 16.72-1.76-1.7 16.75 13.6-9.89L41 82l6.83-15.36 13.66 9.84-1.71-16.72 16.75 1.69Z"
+      />
+      <path
+        className="prefix__sun-outer"
+        fill="#ffd348"
+        d="M19.28 53.5a25 25 0 1 0 9.15-34.16 25 25 0 0 0-9.15 34.16Z"
+      />
+      <path
+        className="prefix__sun-inner"
+        fill="url(#prefix__e)"
+        d="M22.74 51.5a21 21 0 1 0 7.69-28.69 21 21 0 0 0-7.69 28.69Z"
+      />
+    </symbol>
+    <defs>
+      <radialGradient
+        id="prefix__d"
+        cx={41}
+        cy={41}
+        r={41}
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset="54%" stopColor="#d6b849" />
+        <stop offset="67%" stopColor="#ffce47" />
+        <stop offset="100%" stopColor="#ffdb73" />
+      </radialGradient>
+      <linearGradient id="prefix__e" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stopColor="#ffaf22" />
+        <stop offset="100%" stopColor="#f09900" />
+      </linearGradient>
+      <mask id="prefix__f">
+        <path fill="#fff" d="M0 0h100v100H0z" />
+        <use
+          xlinkHref="#prefix__a"
+          stroke="#000"
+          strokeLinejoin="round"
+          strokeWidth={10}
+          width={100}
+          height={100}
+          transform="translate(3 18)"
+        />
+      </mask>
+    </defs>
+    <symbol id="prefix__i">
+      <g mask="url(#prefix__f)">
+        <use
+          xlinkHref="#prefix__g"
+          width={100}
+          height={100}
+          transform="matrix(.7 0 0 .7 0 2)"
+        />
+      </g>
+      <use xlinkHref="#prefix__h" width={100} height={100} />
+    </symbol>
+    <use xlinkHref="#prefix__i" width={100} height={100} />
   </svg>
 );
-export default Sleet;
+export default Sleetshowers_day;

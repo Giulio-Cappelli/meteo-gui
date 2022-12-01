@@ -24,6 +24,7 @@ const WeatherRangeFascia = (props: { fascia: Fascia; height: number }) => {
         <Center>
           <IconSelector
             descIcona={fascia.descIcona}
+            ora={capitalizeFirstLetter(fascia.fasciaPer)}
             icona={fascia.icona}
             height={height}
           />
