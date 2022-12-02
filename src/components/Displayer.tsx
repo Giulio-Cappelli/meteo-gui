@@ -10,8 +10,11 @@ const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
 const Displayer = () => {
   const [giorno, setGiorno] = useState<Giorno>();
+  const [localita, setLocalita] = useState<string>("Trento");
+
   const { data, error } = useSWR<Risposta, Error>(
-    "https://www.meteotrentino.it/protcivtn-meteo/api/front/previsioneOpenDataLocalita?localita=TRENTO",
+    "https://www.meteotrentino.it/protcivtn-meteo/api/front/previsioneOpenDataLocalita?localita=" +
+      localita,
     fetcher
   );
 
@@ -27,7 +30,7 @@ const Displayer = () => {
   return (
     <Center>
       <div style={{ width: "75%" }}>
-        <Place localita={data.previsione[0].localita} />
+        <Place localita={localita} setLocalita={setLocalita} />
         <Space h={"xs"} />
         <MeteoCardList
           giorni={data.previsione[0].giorni}

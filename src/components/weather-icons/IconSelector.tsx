@@ -63,6 +63,24 @@ const IconSelector = (props: {
             height={height}
           />
         );
+      case "Coperto con nevicate deboli":
+        return (
+          <img
+            src={require("./icons/lightsnow.png")}
+            alt={descIcona}
+            width={height}
+            height={height}
+          />
+        );
+      case "Molto nuvoloso con nevicate deboli":
+        return (
+          <img
+            src={require("./icons/lightsnowshowers_night.png")}
+            alt={descIcona}
+            width={height}
+            height={height}
+          />
+        );
       default:
         return <p>{descIcona}</p>;
     }
@@ -118,6 +136,24 @@ const IconSelector = (props: {
         return (
           <img
             src={require("./icons/rainshowers_day.png")}
+            alt={descIcona}
+            width={height}
+            height={height}
+          />
+        );
+      case "Coperto con nevicate deboli":
+        return (
+          <img
+            src={require("./icons/lightsnow.png")}
+            alt={descIcona}
+            width={height}
+            height={height}
+          />
+        );
+      case "Molto nuvoloso con nevicate deboli":
+        return (
+          <img
+            src={require("./icons/lightsnowshowers_day.png")}
             alt={descIcona}
             width={height}
             height={height}

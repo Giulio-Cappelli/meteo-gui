@@ -1,7 +1,7 @@
-import { Box, Grid, Title } from "@mantine/core";
+import { Box, Grid, NativeSelect } from "@mantine/core";
 
-const Place = (props: { localita: string }) => {
-  const { localita } = props;
+const Place = (props: { localita: string; setLocalita: any }) => {
+  const { localita, setLocalita } = props;
   return (
     <Grid justify={"center"} align={"center"} columns={5} gutter={"xs"}>
       <Grid.Col span={1}>
@@ -16,7 +16,11 @@ const Place = (props: { localita: string }) => {
             borderRadius: theme.radius.md,
           })}
         >
-          <Title order={3}>{localita}</Title>
+          <NativeSelect
+          value={localita}
+          onChange={(event) => setLocalita(event.currentTarget.value)}
+          data={["Trento", "Vason"]}
+        />
         </Box>
       </Grid.Col>
     </Grid>
