@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.js": "/test-frontend/static/js/main.aa7ad671.js",
+    "main.js": "/test-frontend/static/js/main.fb7ebb05.js",
     "static/media/fair_day.png": "/test-frontend/static/media/fair_day.bc6773860ed8e86a323f.png",
+    "static/media/lightsnowshowers_day.png": "/test-frontend/static/media/lightsnowshowers_day.24cc2705520e31e35e81.png",
     "static/media/lightrainshowers_day.png": "/test-frontend/static/media/lightrainshowers_day.1d8fe5746430b278a8f2.png",
     "static/media/rainshowers_day.png": "/test-frontend/static/media/rainshowers_day.6087d3af88b137e6e382.png",
     "index.html": "/test-frontend/index.html",
-    "main.aa7ad671.js.map": "/test-frontend/static/js/main.aa7ad671.js.map"
+    "main.fb7ebb05.js.map": "/test-frontend/static/js/main.fb7ebb05.js.map"
   },
   "entrypoints": [
-    "static/js/main.aa7ad671.js"
+    "static/js/main.fb7ebb05.js"
   ]
 }
