@@ -42,6 +42,9 @@ const WeatherRangeFascia = (props: { fascia: Fascia; height: number }) => {
       <td>
         <Center>{fascia.zeroTermico} m</Center>
       </td>
+      <td>
+        <Center>{fascia.limiteNevicate} m</Center>
+      </td>
     </tr>
   );
 };

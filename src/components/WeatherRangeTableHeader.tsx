@@ -33,6 +33,11 @@ const WeatherRangeTableHeader = () => {
           <Text>Zero termico</Text>
         </Center>
       </th>
+      <th>
+        <Center>
+          <Text>Quota neve</Text>
+        </Center>
+      </th>
     </tr>
   );
 };

@@ -42,10 +42,7 @@ const MeteoCard = (props: { giorno: Giorno; setGiorno: any }) => {
       <Space h={"xs"} />
       <Divider />
       <Space h={"xs"} />
-      <IconSelector
-        descIcona={giorno.descIcona}
-        icona={giorno.icona}
-      />
+      <IconSelector descIcona={giorno.descIcona} icona={giorno.icona} />
       <Space h="xs" />
       <TemperatureTable tMin={giorno.tMinGiorno} tMax={giorno.tMaxGiorno} />
     </Box>

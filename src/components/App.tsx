@@ -1,12 +1,10 @@
 import {
   AppShell,
-  Aside,
   Burger,
   Footer,
   Grid,
   Header,
   MediaQuery,
-  Navbar,
   Space,
   Text,
   useMantineTheme,
@@ -47,7 +45,7 @@ const App = () => {
         </MediaQuery>
       }*/
       footer={
-        <Footer height={60} p="md">
+        <Footer height={50} p="md">
           <Grid
             justify={"space-between"}
             align={"center"}
@@ -93,7 +91,7 @@ const App = () => {
         </Footer>
       }
       header={
-        <Header height={60} p="md">
+        <Header height={50} p="md">
           <div
             style={{ display: "flex", alignItems: "center", height: "100%" }}
           >

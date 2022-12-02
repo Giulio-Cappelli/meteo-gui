@@ -50,4 +50,5 @@ export type Fascia = {
   descVentoDirValle: string;
   iconaVentoQuota: string;
   zeroTermico: number;
+  limiteNevicate: number;
 };
