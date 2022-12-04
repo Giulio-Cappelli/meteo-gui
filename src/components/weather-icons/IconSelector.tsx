@@ -81,6 +81,15 @@ const IconSelector = (props: {
             height={height}
           />
         );
+      case "Sereno":
+        return (
+          <img
+            src={require("./icons/clearsky_night.png")}
+            alt={descIcona}
+            width={height}
+            height={height}
+          />
+        );
       default:
         return <p>{descIcona}</p>;
     }
@@ -154,6 +163,15 @@ const IconSelector = (props: {
         return (
           <img
             src={require("./icons/lightsnowshowers_day.png")}
+            alt={descIcona}
+            width={height}
+            height={height}
+          />
+        );
+      case "Sereno":
+        return (
+          <img
+            src={require("./icons/clearsky_day.png")}
             alt={descIcona}
             width={height}
             height={height}
