@@ -14,7 +14,7 @@ const Displayer = () => {
 
   const { data, error } = useSWR<Risposta, Error>(
     "https://www.meteotrentino.it/protcivtn-meteo/api/front/previsioneOpenDataLocalita?localita=" +
-      localita,
+      localita.toUpperCase(),
     fetcher
   );
 
