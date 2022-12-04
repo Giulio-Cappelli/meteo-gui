@@ -15,6 +15,7 @@ const IconSelector = (props: {
             alt={descIcona}
             width={height}
             height={height}
+            title={descIcona}
           />
         );
       case "Coperto con piogge deboli":
@@ -24,6 +25,7 @@ const IconSelector = (props: {
             alt={descIcona}
             width={height}
             height={height}
+            title={descIcona}
           />
         );
       case "Coperto":
@@ -34,6 +36,7 @@ const IconSelector = (props: {
             alt={descIcona}
             width={height}
             height={height}
+            title={descIcona}
           />
         );
       case "Molto nuvoloso":
@@ -43,6 +46,7 @@ const IconSelector = (props: {
             alt={descIcona}
             width={height}
             height={height}
+            title={descIcona}
           />
         );
       case "Nuvoloso con piogge deboli":
@@ -52,6 +56,7 @@ const IconSelector = (props: {
             alt={descIcona}
             width={height}
             height={height}
+            title={descIcona}
           />
         );
       case "Molto nuvoloso con piogge deboli":
@@ -61,6 +66,7 @@ const IconSelector = (props: {
             alt={descIcona}
             width={height}
             height={height}
+            title={descIcona}
           />
         );
       case "Coperto con nevicate deboli":
@@ -70,6 +76,7 @@ const IconSelector = (props: {
             alt={descIcona}
             width={height}
             height={height}
+            title={descIcona}
           />
         );
       case "Nuvoloso con nevicate deboli":
@@ -80,6 +87,7 @@ const IconSelector = (props: {
             alt={descIcona}
             width={height}
             height={height}
+            title={descIcona}
           />
         );
       case "Sereno":
@@ -89,6 +97,7 @@ const IconSelector = (props: {
             alt={descIcona}
             width={height}
             height={height}
+            title={descIcona}
           />
         );
       default:
@@ -103,6 +112,7 @@ const IconSelector = (props: {
             alt={descIcona}
             width={height}
             height={height}
+            title={descIcona}
           />
         );
       case "Coperto con piogge deboli":
@@ -112,6 +122,7 @@ const IconSelector = (props: {
             alt={descIcona}
             width={height}
             height={height}
+            title={descIcona}
           />
         );
       case "Coperto":
@@ -122,6 +133,7 @@ const IconSelector = (props: {
             alt={descIcona}
             width={height}
             height={height}
+            title={descIcona}
           />
         );
       case "Molto nuvoloso":
@@ -131,6 +143,7 @@ const IconSelector = (props: {
             alt={descIcona}
             width={height}
             height={height}
+            title={descIcona}
           />
         );
       case "Nuvoloso con piogge deboli":
@@ -140,6 +153,7 @@ const IconSelector = (props: {
             alt={descIcona}
             width={height}
             height={height}
+            title={descIcona}
           />
         );
       case "Molto nuvoloso con piogge deboli":
@@ -149,6 +163,7 @@ const IconSelector = (props: {
             alt={descIcona}
             width={height}
             height={height}
+            title={descIcona}
           />
         );
       case "Coperto con nevicate deboli":
@@ -158,6 +173,7 @@ const IconSelector = (props: {
             alt={descIcona}
             width={height}
             height={height}
+            title={descIcona}
           />
         );
       case "Nuvoloso con nevicate deboli":
@@ -168,6 +184,7 @@ const IconSelector = (props: {
             alt={descIcona}
             width={height}
             height={height}
+            title={descIcona}
           />
         );
       case "Sereno":
@@ -177,6 +194,7 @@ const IconSelector = (props: {
             alt={descIcona}
             width={height}
             height={height}
+            title={descIcona}
           />
         );
       default:
