@@ -72,6 +72,7 @@ const IconSelector = (props: {
             height={height}
           />
         );
+      case "Nuvoloso con nevicate deboli":
       case "Molto nuvoloso con nevicate deboli":
         return (
           <img
@@ -159,6 +160,7 @@ const IconSelector = (props: {
             height={height}
           />
         );
+      case "Nuvoloso con nevicate deboli":
       case "Molto nuvoloso con nevicate deboli":
         return (
           <img
