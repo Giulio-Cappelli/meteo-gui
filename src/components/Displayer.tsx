@@ -30,7 +30,7 @@ const Displayer = () => {
   return (
     <Center>
       <div style={{ width: "75%" }}>
-        <Place localita={localita} setLocalita={setLocalita} />
+        <Place localita={localita} setLocalita={setLocalita} setGiorno={setGiorno} />
         <Space h={"xs"} />
         <MeteoCardList
           giorni={data.previsione[0].giorni}

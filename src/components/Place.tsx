@@ -1,7 +1,11 @@
 import { Box, Grid, NativeSelect } from "@mantine/core";
 
-const Place = (props: { localita: string; setLocalita: any }) => {
-  const { localita, setLocalita } = props;
+const Place = (props: {
+  localita: string;
+  setLocalita: any;
+  setGiorno: any;
+}) => {
+  const { localita, setLocalita, setGiorno } = props;
   return (
     <Grid justify={"center"} align={"center"} columns={5} gutter={"xs"}>
       <Grid.Col span={1}>
@@ -17,10 +21,13 @@ const Place = (props: { localita: string; setLocalita: any }) => {
           })}
         >
           <NativeSelect
-          value={localita}
-          onChange={(event) => setLocalita(event.currentTarget.value)}
-          data={["Trento", "Vason"]}
-        />
+            value={localita}
+            onChange={(event) => {
+              setLocalita(event.currentTarget.value);
+              setGiorno(undefined);
+            }}
+            data={["Trento", "Vason"]}
+          />
         </Box>
       </Grid.Col>
     </Grid>
