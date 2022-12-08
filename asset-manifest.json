@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/test-frontend/static/js/main.da17bf3a.js",
+    "main.js": "/test-frontend/static/js/main.caf3ad01.js",
     "static/media/fair_day.png": "/test-frontend/static/media/fair_day.bc6773860ed8e86a323f.png",
     "static/media/clearsky_day.png": "/test-frontend/static/media/clearsky_day.ac6873116065f078f854.png",
     "static/media/lightsnowshowers_day.png": "/test-frontend/static/media/lightsnowshowers_day.24cc2705520e31e35e81.png",
     "static/media/lightrainshowers_day.png": "/test-frontend/static/media/lightrainshowers_day.1d8fe5746430b278a8f2.png",
     "static/media/rainshowers_day.png": "/test-frontend/static/media/rainshowers_day.6087d3af88b137e6e382.png",
     "index.html": "/test-frontend/index.html",
-    "main.da17bf3a.js.map": "/test-frontend/static/js/main.da17bf3a.js.map"
+    "main.caf3ad01.js.map": "/test-frontend/static/js/main.caf3ad01.js.map"
   },
   "entrypoints": [
-    "static/js/main.da17bf3a.js"
+    "static/js/main.caf3ad01.js"
   ]
 }
