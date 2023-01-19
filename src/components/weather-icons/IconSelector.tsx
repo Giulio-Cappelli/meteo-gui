@@ -140,6 +140,16 @@ const IconSelector = (props: {
             title={descIcona}
           />
         );
+      case "Molto nuvoloso con deboli piogge/nevicate":
+        return (
+          <img
+            src={require("./icons/lightsleetshowers_night.png")}
+            alt={descIcona}
+            width={height}
+            height={height}
+            title={descIcona}
+          />
+        );
       default:
         return <p>{descIcona}</p>;
     }
@@ -271,6 +281,16 @@ const IconSelector = (props: {
         return (
           <img
             src={require("./icons/sleet.png")}
+            alt={descIcona}
+            width={height}
+            height={height}
+            title={descIcona}
+          />
+        );
+      case "Molto nuvoloso con deboli piogge/nevicate":
+        return (
+          <img
+            src={require("./icons/lightsleetshowers_day.png")}
             alt={descIcona}
             width={height}
             height={height}
