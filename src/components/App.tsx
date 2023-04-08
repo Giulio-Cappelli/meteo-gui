@@ -56,7 +56,7 @@ const App = () => {
               <Text
                 component="a"
                 target={"_blank"}
-                href="https://www.giuliocappelli.me"
+                href="https://github.com/Giulio-Cappelli"
               >
                 Made by Giulio Cappelli
               </Text>
