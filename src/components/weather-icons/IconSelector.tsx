@@ -160,6 +160,16 @@ const IconSelector = (props: {
             title={descIcona}
           />
         );
+      case "Molto nuvoloso con piogge moderate":
+        return (
+          <img
+            src={require("./icons/heavyrainshowers_night.png")}
+            alt={descIcona}
+            width={height}
+            height={height}
+            title={descIcona}
+          />
+        );
       default:
         return <p>{descIcona}</p>;
     }
@@ -317,6 +327,16 @@ const IconSelector = (props: {
             title={descIcona}
           />
         );
+      case "Molto nuvoloso con piogge moderate":
+        return (
+          <img
+            src={require("./icons/heavyrainshowers_day.png")}
+            alt={descIcona}
+            width={height}
+            height={height}
+            title={descIcona}
+          />
+        );
       default:
         return <p>{descIcona}</p>;
     }
@@ -324,5 +344,4 @@ const IconSelector = (props: {
     return <></>;
   }
 };
-
 export default IconSelector;

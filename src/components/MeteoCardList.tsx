@@ -5,9 +5,9 @@ import { Giorno } from "./types";
 const MeteoCardList = (props: { giorni: Giorno[]; setGiorno: any }) => {
   const { giorni, setGiorno } = props;
   return (
-    <Grid justify={"center"} align={"center"} columns={6} gutter={"xs"}>
+    <Grid justify={"center"} align={"center"} columns={12} gutter={"xs"}>
       {giorni.map((giorno: Giorno) => (
-        <Grid.Col span={1} key={giorno.giorno}>
+        <Grid.Col span={2} key={giorno.giorno}>
           <MeteoCard
             giorno={giorno}
             key={giorno.giorno}
