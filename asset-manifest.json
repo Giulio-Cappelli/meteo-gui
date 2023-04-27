@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.js": "/test-frontend/static/js/main.fb801d13.js",
+    "main.js": "/test-frontend/static/js/main.d1d2c64a.js",
     "static/media/fair_day.png": "/test-frontend/static/media/fair_day.bc6773860ed8e86a323f.png",
     "static/media/clearsky_day.png": "/test-frontend/static/media/clearsky_day.ac6873116065f078f854.png",
     "static/media/sleetshowers_day.png": "/test-frontend/static/media/sleetshowers_day.5d144c7e8cb60bb60ae6.png",
     "static/media/lightsleetshowers_day.png": "/test-frontend/static/media/lightsleetshowers_day.0533e3cc440c8f6132bc.png",
     "static/media/lightsnowshowers_day.png": "/test-frontend/static/media/lightsnowshowers_day.24cc2705520e31e35e81.png",
     "static/media/lightrainshowers_day.png": "/test-frontend/static/media/lightrainshowers_day.1d8fe5746430b278a8f2.png",
+    "static/media/heavyrainshowers_day.png": "/test-frontend/static/media/heavyrainshowers_day.ca292e1e7313f416582c.png",
     "static/media/rainshowers_day.png": "/test-frontend/static/media/rainshowers_day.6087d3af88b137e6e382.png",
     "index.html": "/test-frontend/index.html",
-    "main.fb801d13.js.map": "/test-frontend/static/js/main.fb801d13.js.map"
+    "main.d1d2c64a.js.map": "/test-frontend/static/js/main.d1d2c64a.js.map"
   },
   "entrypoints": [
-    "static/js/main.fb801d13.js"
+    "static/js/main.d1d2c64a.js"
   ]
 }
