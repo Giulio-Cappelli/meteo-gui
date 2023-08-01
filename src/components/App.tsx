@@ -15,6 +15,7 @@ import Displayer from "./Displayer";
 const App = () => {
   const theme = useMantineTheme();
   const [opened, setOpened] = useState(false);
+
   return (
     <AppShell
       styles={{
