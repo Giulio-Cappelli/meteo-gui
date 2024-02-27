@@ -170,6 +170,26 @@ const IconSelector = (props: {
             title={descIcona}
           />
         );
+      case "Coperto con piogge forti":
+        return (
+          <img
+            src={require("./icons/heavyrain.png")}
+            alt={descIcona}
+            width={height}
+            height={height}
+            title={descIcona}
+          />
+        );
+      case "Coperto con nevicate forti":
+        return (
+          <img
+            src={require("./icons/heavysnow.png")}
+            alt={descIcona}
+            width={height}
+            height={height}
+            title={descIcona}
+          />
+        );
       default:
         return <p>{descIcona}</p>;
     }
@@ -331,6 +351,26 @@ const IconSelector = (props: {
         return (
           <img
             src={require("./icons/heavyrainshowers_day.png")}
+            alt={descIcona}
+            width={height}
+            height={height}
+            title={descIcona}
+          />
+        );
+      case "Coperto con piogge forti":
+        return (
+          <img
+            src={require("./icons/heavyrain.png")}
+            alt={descIcona}
+            width={height}
+            height={height}
+            title={descIcona}
+          />
+        );
+      case "Coperto con nevicate forti":
+        return (
+          <img
+            src={require("./icons/heavysnow.png")}
             alt={descIcona}
             width={height}
             height={height}
